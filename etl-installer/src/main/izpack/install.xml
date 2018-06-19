@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<izpack:installation version="5.0"
+		xmlns:izpack="http://izpack.org/schema/installation"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://izpack.org/schema/installation http://izpack.org/schema/5.1/izpack-installation-5.1.xsd">
+
+	<info>
+		<appname>@{project.name}</appname>
+		<appversion>@{project.version}</appversion>
+		<javaversion>1.8</javaversion>
+		<requiresjdk>true</requiresjdk>
+		<appsubpath>Lombard Risk/@{project.name}</appsubpath>
+		<uninstaller write="no"/>
+		<writeinstallationinformation>no</writeinstallationinformation>
+		<summarylogfilepath>$INSTALL_PATH/log</summarylogfilepath>
+
+	</info>
+
+	<guiprefs height="450" width="800" resizable="no">
+	</guiprefs>
+
+	<variables>
+		<variable name="setup.type" value="install"/>
+		<variable name="distributed" value="false"/>
+
+		<!-- cluster hosts allocation -->
+		<variable name="hosts" value="localhost"/>
+		<variable name="hdfs.nn.host" value="localhost"/>
+		<variable name="hdfs.sn.host" value="localhost"/>
+		<variable name="hdfs.dn.hosts" value="localhost"/>
+		<variable name="yarn.rm.host" value="localhost"/>
+		<variable name="yarn.nm.hosts" value="localhost"/>
+		<variable name="history.server.host" value="localhost"/>
+		<variable name="hbase.master.host" value="localhost"/>
+		<variable name="hbase.backup.master.hosts" value="localhost"/>
+		<variable name="hbase.regionserver.hosts" value="localhost"/>
+		<variable name="phoenix.qs.hosts" value="localhost"/>
+		<variable name="zookeeper.hosts" value="localhost" />
+		<variable name="etl.host" value="localhost"/>
+
+		<!--hadoop configuration variables -->
+		<variable name="dfs.replication" value="1" />
+
+		<!--etl configuration variables -->
+		<variable name="etl.http.port" value="8080"/>
+		<variable name="etl.https.port" value="8043"/>
+		<variable name="hadoop.user" value="${USER_NAME}"/>
+
+		<!-- database settings -->
+		<variable name="database.type" value="mysql"/>
+		<variable name="database.jdbc.url" value="jdbc:mysql://localhost:3306/etl"/>
+		<variable name="database.owner.user" value="etl"/>
+		<variable name="database.owner.password" value="password"/>
+		<variable name="database.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+		<variable name="database.hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+		<variable name="database.app.user" value="" />
+		<variable name="database.app.password" value="" />
+		<variable name="database.role.name" value="" />
+		<variable name="database.server.ip" value="" />
+		<variable name="database.port" value="" />
+		<variable name="database.instance" value="" />
+		<variable name="database.name" value="" />
+		<variable name="database.oracle.tns" value="" />
+
+	</variables>
+
+	<dynamicvariables>
+		<variable name="APP_HOME" value="${INSTALL_PATH}"/>
+		<variable name="DATA_PATH" value="${INSTALL_PATH}/data"/>
+		<variable name="IGNIS_HOME" value="${INSTALL_PATH}/services/@{etl.file}"/>
+		<variable name="HADOOP_HOME" value="${INSTALL_PATH}/services/@{hadoop.file}"/>
+		<variable name="HBASE_HOME" value="${INSTALL_PATH}/services/@{hbase.file}"/>
+		<variable name="SPARK_HOME" value="${INSTALL_PATH}/services/@{spark.file}"/>
+		<variable name="PHOENIX_HOME" value="${INSTALL_PATH}/services/@{phoenix.file}"/>
+		<variable name="ZOOKEEPER_HOME" value="${INSTALL_PATH}/services/@{zookeeper.file}"/>
+		<variable name="FLYWAY_HOME" value="${INSTALL_PATH}/services/@{flyway.file}"/>
+		<variable name="SSH_OPTS" value=""/>
+
+		<variable name="dfs.replication" condition="isDistributed" >
+			<value>3</value>
+		</variable>
+		<variable name="dfs.replication" condition="isStandalone" >
+			<value>1</value>
+		</variable>
+
+		<variable name="database.jdbc.url" condition="isOracle+noOracleTns">
+			<value>jdbc:oracle:thin:@//${database.server.ip}:${database.port}/${database.instance}</value>
+		</variable>
+		<variable name="database.jdbc.url" condition="isOracle+!noOracleTns">
+			<value>jdbc:oracle:thin:@${database.oracle.tns}</value>
+		</variable>
+		<variable name="database.jdbc.url" condition="isMSSqlServer">
+			<value>jdbc:oracle:thin:@${database.server.ip}:${database.port}:${database.instance}</value>
+		</variable>
+		<variable name="database.jdbc.url" condition="isMySql">
+			<value>jdbc:mysql://${database.server.ip}:${database.port}/${database.name}</value>
+		</variable>
+
+		<variable name="database.hibernate.dialect" condition="isOracle">
+			<value>org.hibernate.dialect.Oracle12cDialect</value>
+		</variable>
+		<variable name="database.hibernate.dialect" condition="isMSSqlServer">
+			<value>org.hibernate.dialect.SQLServer2012Dialect</value>
+		</variable>
+		<variable name="database.hibernate.dialect" condition="isMySql">
+			<value>org.hibernate.dialect.MySQL5Dialect</value>
+		</variable>
+
+		<variable name="database.jdbc.driver" condition="isOracle">
+			<value>oracle.jdbc.OracleDriver</value>
+		</variable>
+		<variable name="database.jdbc.driver" condition="isMSSqlServer">
+			<value>com.microsoft.sqlserver.jdbc.SQLServerDriver</value>
+		</variable>
+		<variable name="database.jdbc.driver" condition="isMySql">
+			<value>com.mysql.jdbc.Driver</value>
+		</variable>
+
+
+		<variable name="database.instance.txt" condition="isOracle">
+			<value>Service Name</value>
+		</variable>
+		<variable name="database.instance.txt" condition="isMSSqlServer">
+			<value>Instance</value>
+		</variable>
+
+		<variable name="database.type" condition="isMSSqlServer">
+			<value>mssqlerver</value>
+		</variable>
+		<variable name="database.type" condition="isOracle">
+			<value>oracle</value>
+		</variable>
+		<variable name="database.type" condition="isMySql">
+			<value>mysql</value>
+		</variable>
+
+	</dynamicvariables>
+
+
+	<conditions>
+		<condition id="isStandalone" type="variable">
+			<name>distributed</name>
+			<value>false</value>
+		</condition>
+		<condition id="isDistributed" type="variable">
+			<name>distributed</name>
+			<value>true</value>
+		</condition>
+		<condition id="isSetupMode" type="variable">
+			<name>setup.type</name>
+			<value>setup</value>
+		</condition>
+		<condition id="isInstallMode" type="variable">
+			<name>setup.type</name>
+			<value>install</value>
+		</condition>
+
+		<condition id="isOracle" type="variable" >
+			<name>database.type</name>
+			<value>oracle</value>
+		</condition>
+		<condition type="empty" id="noOracleTns" >
+			<variable>database.oracle.tns</variable>
+		</condition>
+
+		<condition id="isMSSqlServer" type="variable" >
+			<name>database.type</name>
+			<value>sqlserver</value>
+		</condition>
+		<condition id="isMySql" type="variable" >
+			<name>database.type</name>
+			<value>mysql</value>
+		</condition>
+
+
+		<condition type="or" id="isOracleOrMsSqlServer">
+			<condition type="ref" refid="isOracle" />
+			<condition type="ref" refid="isMSSqlServer" />
+		</condition>
+
+		<condition type="or" id="isMySqlorMsSqlServer">
+			<condition type="ref" refid="isMySql" />
+			<condition type="ref" refid="isMSSqlServer" />
+		</condition>
+	</conditions>
+
+	<locale>
+		<langpack iso3="eng"/>
+	</locale>
+
+	<jar src="packs/distro/lib/etl-builder.jar" stage="install"/>
+
+	<listeners>
+		<listener classname="AntActionInstallerListener" stage="install"/>
+	</listeners>
+
+	<resources>
+		<res id="customicons.xml" src="customicons.xml"/>
+		<res id="logo" src="images/logo.png"/>
+		<res id="userInputSpec.xml" src="panel/userinput/userInputSpec.xml" type="xml"/>
+		<res id="AntActionsSpec.xml" src="actionspec/AntActionsSpec.xml" type="xml"/>
+		<res id="userInputLang.xml" src="lang/userInputLang.xml" type="xml"/>
+	</resources>
+
+	<panels>
+		<panel classname="TargetPanel" />
+
+		<panel classname="UserInputPanel" id="panel.install.mode" />
+
+		<panel classname="UserInputPanel" id="panel.allocate.hosts" condition="isDistributed">
+			<actions>
+				<action stage="preconstruct" classname="etl.installer.panel.action.LoadHostsAction"/>
+				<action stage="postvalidate" classname="etl.installer.panel.action.AssignHostsAction"/>
+			</actions>
+		</panel>
+
+		<panel classname="UserInputPanel" id="panel.assign.master" condition="isDistributed">
+			<actions>
+				<action stage="preactivate" classname="etl.installer.panel.action.LoadServerIpAction"/>
+				<action stage="postvalidate" classname="etl.installer.panel.action.ConfigZooKeeperAction"/>
+			</actions>
+		</panel>
+
+		<panel classname="UserInputPanel" id="panel.assign.slave.client" condition="isDistributed">
+			<actions>
+				<action stage="preactivate"
+						classname="etl.installer.panel.action.LoadServerIpAction"/>
+
+			</actions>
+		</panel>
+
+
+		<panel classname="UserInputPanel" id="panel.config.etl" condition="isDistributed"/>
+
+		<panel classname="UserInputPanel" id="panel.database.type" />
+		<panel classname="UserInputPanel" id="panel.database.connection">
+			<validator  classname="etl.installer.panel.validation.DatabaseConnectionValidator"/>
+		</panel>
+		<panel classname="InstallPanel"/>
+		<panel classname="SimpleFinishPanel"/>
+	</panels>
+
+	<packs>
+		<pack name="core" required="true" >
+			<description>prepare install</description>
+			<fileset dir="packs/distro" targetdir="${INSTALL_PATH}" override="true" excludes="services/" />
+			<fileset dir="packs/data" targetdir="${DATA_PATH}" override="true"  />
+			<parsable type="plain">
+				<fileset targetdir="${INSTALL_PATH}/conf" includes="system.properties"/>
+			</parsable>
+			<parsable type="ant" encoding="UTF-8" >
+				<fileset targetdir="${INSTALL_PATH}/conf" includes="build.xml"/>
+			</parsable>
+			<!-- configuration for bin dir -->
+			<parsable type="shell" >
+				<fileset targetdir="${INSTALL_PATH}/conf" includes="env.sh"/>
+			</parsable>
+			<!-- set executable files -->
+			<executable type="bin" stage="never" failure ="abort" keep="true" >
+				<os family="unix" />
+				<fileset targetdir="${INSTALL_PATH}/bin"  includes="*"  />
+				<fileset targetdir="${INSTALL_PATH}/bin/ext"  includes="*"  />
+				<fileset targetdir="${INSTALL_PATH}/bin/common"  includes="*"  />
+				<fileset targetdir="${INSTALL_PATH}/conf" includes="*.sh" />
+			</executable>
+		</pack>
+
+		<pack name="zookeeper"  required="true">
+			<description>install and setup zookeeper</description>
+			<file src="packs/repos/@{zookeeper.file}.tar.gz" targetdir="${INSTALL_PATH}/services" unpack="true" />
+			<file src="packs/data/zookeeper/myid" targetdir="${DATA_PATH}/zookeeper" override="true" />
+
+			<fileset dir="packs/distro/services/@{zookeeper.file}" targetdir="${ZOOKEEPER_HOME}" override="true"/>
+			<!-- configuration for ZOOKEEPER -->
+			<parsable type="plain" >
+				<fileset targetdir="${ZOOKEEPER_HOME}/conf" includes="zoo.cfg"/>
+			</parsable>
+			<parsable type="plain" >
+				<fileset targetdir="${DATA_PATH}/zookeeper" includes="myid"/>
+			</parsable>
+			<!-- set executable files -->
+			<executable type="bin" stage="never" failure ="abort" keep="true" >
+				<os family="unix" />
+				<fileset targetdir="${ZOOKEEPER_HOME}/bin"  includes="*"  />
+				<fileset targetdir="${ZOOKEEPER_HOME}/conf" includes="*.sh" />
+			</executable>
+			<!-- config zoo.cfg for distributed zookeeper -->
+			<executable type="bin" stage="postinstall" targetfile="${ZOOKEEPER_HOME}/post-install.sh" keep="true" failure="abort" >
+				<os family="unix"/>
+			</executable>
+		</pack>
+
+		<pack name="hadoop"  required="true">
+			<description>install and setup hadoop</description>
+			<file src="packs/repos/@{hadoop.file}.tar.gz" targetdir="${INSTALL_PATH}/services" unpack="true" />
+			<fileset dir="packs/distro/services/@{hadoop.file}" targetdir="${HADOOP_HOME}" override="true"/>
+			<!-- configuration for hadoop -->
+			<parsable type="xml" encoding="UTF-8">
+				<fileset targetdir="${HADOOP_HOME}/etc/hadoop" includes="hdfs-site.xml,core-site.xml,mapred-site.xml,yarn-site.xml"/>
+			</parsable>
+			<parsable type="shell" >
+				<fileset targetdir="${HADOOP_HOME}/etc/hadoop" includes="hadoop-env.sh"/>
+			</parsable>
+			<!-- set executable -->
+			<executable type="bin" stage="never" failure="abort" keep="true" >
+				<os family="unix" />
+				<fileset targetdir="${HADOOP_HOME}/bin"  includes="*" />
+				<fileset targetdir="${HADOOP_HOME}/sbin" includes="*" />
+				<fileset targetdir="${HADOOP_HOME}/etc/hadoop" includes="*.sh" />
+				<fileset targetdir="${HADOOP_HOME}/libexec" includes="*"  />
+			</executable>
+			<!-- format hadoop namenode -->
+			<executable type="bin" stage="postinstall" targetfile="${HADOOP_HOME}/post-install.sh" keep="true" failure="abort" >
+				<os family="unix"/>
+			</executable>
+		</pack>
+		<pack name="hbase"  required="true">
+			<description>install and setup hbase</description>
+			<file src="packs/repos/@{hbase.file}-bin.tar.gz" targetdir="${INSTALL_PATH}/services"  unpack="true"/>
+			<fileset dir="packs/distro/services/@{hbase.file}" targetdir="${HBASE_HOME}" override="true"/>
+
+			<!-- configuration for hbase -->
+			<parsable type="xml" encoding="UTF-8">
+				<fileset targetdir="${HBASE_HOME}/conf" includes="hbase-site.xml"/>
+			</parsable>
+			<parsable type="shell" >
+				<fileset targetdir="${HBASE_HOME}/conf" includes="hbase-env.sh"/>
+			</parsable>
+			<!-- set executable files -->
+			<executable type="bin" stage="never" failure="abort" keep="true" >
+				<os family="unix" />
+				<fileset targetdir="${HBASE_HOME}/bin"  includes="*"  />
+				<fileset targetdir="${HBASE_HOME}/conf" includes="*.sh" />
+			</executable>
+			<!-- config master and slave files -->
+			<executable type="bin" stage="postinstall" targetfile="${HBASE_HOME}/post-install.sh" keep="true" failure="abort" >
+				<os family="unix"/>
+			</executable>
+		</pack>
+		<pack name="phoenix"  required="true">
+			<description>install and setup phoenix</description>
+			<depends packname="hbase"/>
+			<fileset dir="packs/repos/@{phoenix.file}" targetdir="${PHOENIX_HOME}"/>
+			<fileset dir="packs/distro/services/@{phoenix.file}" targetdir="${PHOENIX_HOME}" override="true"/>
+			<file src="packs/repos/@{phoenix.file}/phoenix-@{phoenix.version}-server.jar" targetdir="${HBASE_HOME}/lib" override="true"/>
+			<file src="packs/repos/@{phoenix.file}/phoenix-@{phoenix.version}-client.jar" targetdir="${SPARK_HOME}/jars" override="true"/>
+			<!-- configuration for phoenix -->
+			<parsable type="shell" >
+				<fileset targetdir="${PHOENIX_HOME}/bin/config" includes="env.sh"/>
+			</parsable>
+			<parsable type="xml" encoding="UTF-8">
+				<fileset targetdir="${PHOENIX_HOME}/bin" includes="hbase-site.xml"/>
+			</parsable>
+			<!-- set executable files -->
+			<executable type="bin" stage="never" failure="abort" keep="true" >
+				<os family="unix" />
+				<fileset targetdir="${PHOENIX_HOME}/bin"   includes="*" />
+				<fileset targetdir="${PHOENIX_HOME}/bin/config" includes="*.sh" />
+			</executable>
+			<executable type="bin" stage="postinstall" targetfile="${PHOENIX_HOME}/post-install.sh" keep="true" failure="abort" >
+				<os family="unix"/>
+			</executable>
+		</pack>
+
+		<pack name="spark" required="true">
+			<description>install and setup spark</description>
+			<depends packname="core"/>
+			<file src="packs/repos/@{spark.file}.tgz" targetdir="${INSTALL_PATH}/services" unpack="true" />
+			<fileset dir="packs/distro/services/@{spark.file}" targetdir="${SPARK_HOME}" override="true"/>
+			<fileset dir="packs/repos/lib/jdbc" targetdir="${SPARK_HOME}/jars" override="true"/>
+			<file src="packs/repos/lib/guava-@{guava.version}.jar" targetdir="${SPARK_HOME}/jars" override="true"/>
+			<!-- configuration for phoenix -->
+			<parsable type="plain" >
+				<fileset targetdir="${SPARK_HOME}/conf" includes="spark-defaults.conf"/>
+			</parsable>
+			<parsable type="shell" >
+				<fileset targetdir="${SPARK_HOME}/conf" includes="spark-env.sh"/>
+			</parsable>
+			<!-- set executable files -->
+			<executable type="bin" stage="never" failure ="warn" keep="true" >
+				<os family="unix" />
+				<fileset targetdir="${SPARK_HOME}/bin"  includes="*" />
+				<fileset targetdir="${SPARK_HOME}/sbin" includes="*"  />
+			</executable>
+			<!-- remote conflict jars -->
+			<executable type="bin" stage="postinstall" targetfile="${SPARK_HOME}/post-install.sh" keep="true" failure="abort" >
+				<os family="unix"/>
+			</executable>
+		</pack>
+		<pack name="flyway" required="true">
+			<description>flyway migration</description>
+			<depends packname="core"/>
+			<file src="packs/repos/flyway-commandline-@{flyway.version}.zip" targetdir="${INSTALL_PATH}/services" unpack="true" />
+			<fileset dir="packs/distro/services/@{flyway.file}" targetdir="${FLYWAY_HOME}" override="true"/>
+			<fileset dir="packs/repos/lib/jdbc" targetdir="${FLYWAY_HOME}/drivers" override="true"/>
+			<parsable type="plain"  >
+				<fileset targetdir="${FLYWAY_HOME}/conf" includes="flyway.conf" />
+			</parsable>
+			<executable type="bin" stage="never"   keep="true" failure="abort" >
+				<os family="unix"/>
+				<fileset targetdir="${FLYWAY_HOME}"  includes="*" />
+			</executable>
+			<executable type="bin" stage="postinstall" targetfile="${FLYWAY_HOME}/post-install.sh" keep="true" failure="abort" >
+				<os family="unix"/>
+			</executable>
+		</pack>
+		<pack name="etl"  required="true">
+			<description>install and setup phoenix</description>
+			<file src="packs/repos/@{etl.file}-dist.tar.gz" targetdir="${INSTALL_PATH}/services" unpack="true" />
+			<!-- because we don't have version on etl folder inside izpack installer -->
+			<fileset dir="packs/distro/services/etl" targetdir="${IGNIS_HOME}" override="true"/>
+			<!-- configuration for etl  -->
+			<parsable type="shell">
+				<fileset targetdir="${IGNIS_HOME}/conf" includes="etl-env.sh"/>
+			</parsable>
+			<parsable type="plain"  >
+				<fileset targetdir="${IGNIS_HOME}/conf" includes="application.properties" />
+			</parsable>
+			<!-- set executable files -->
+			<executable type="bin" stage="never" failure ="warn" keep="true" >
+				<os family="unix" />
+				<fileset targetdir="${IGNIS_HOME}/bin" includes="*" />
+				<fileset targetdir="${IGNIS_HOME}/conf" includes="*.sh" />
+			</executable>
+			<executable type="bin" stage="postinstall" targetfile="${IGNIS_HOME}/post-install.sh" keep="true" failure="abort" >
+				<os family="unix"/>
+			</executable>
+		</pack>
+	</packs>
+</izpack:installation>

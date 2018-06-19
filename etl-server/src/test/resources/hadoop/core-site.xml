@@ -1,0 +1,14 @@
+<configuration>
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>${INSTALL_PATH}/tmp</value>
+    </property>
+    <property>
+         <name>fs.defaultFS</name>
+         <value>hdfs://namenode:9000</value>
+         <description>namenode URI</description>
+    </property>
+
+
+</configuration>
+

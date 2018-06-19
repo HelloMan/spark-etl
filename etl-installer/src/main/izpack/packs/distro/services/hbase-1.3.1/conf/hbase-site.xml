@@ -1,0 +1,47 @@
+<configuration>
+    <property >
+        <name>hbase.tmp.dir</name>
+        <value>${INSTALL_PATH}/tmp</value>
+    </property>
+    <property>
+        <name>hbase.rootdir</name>
+        <value>hdfs://${hdfs.nn.host}:9000/hbase</value>
+    </property>
+
+    <property>
+        <name>hbase.cluster.distributed</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>hbase.zookeeper.property.dataDir</name>
+        <value>${DATA_PATH}/zookeeper</value>
+    </property>
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>${zookeeper.hosts}</value>
+    </property>
+
+    <property>
+        <name>phoenix.query.rowKeyOrderSaltedTable</name>
+        <value>true</value>
+    </property>
+
+    <!-- Apache phoenix integration -->
+    <!-- for secondary index -->
+    <property>
+        <name>hbase.regionserver.wal.codec</name>
+        <value>org.apache.hadoop.hbase.regionserver.wal.IndexedWALEditCodec</value>
+    </property>
+
+    <property>
+        <name>hbase.region.server.rpc.scheduler.factory.class</name>
+        <value>org.apache.hadoop.hbase.ipc.PhoenixRpcSchedulerFactory</value>
+        <description>Factory to create the Phoenix RPC Scheduler that uses separate queues for index and metadata updates</description>
+    </property>
+    <property>
+        <name>hbase.rpc.controllerfactory.class</name>
+        <value>org.apache.hadoop.hbase.ipc.controller.ServerRpcControllerFactory</value>
+        <description>Factory to create the Phoenix RPC Scheduler that uses separate queues for index and metadata updates</description>
+    </property>
+
+</configuration>

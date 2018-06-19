@@ -1,0 +1,926 @@
+PRODUCTID,PRODUCT,REQUISITEID,REQUISITE,TABLEID,REPORTTABLE,CATEGORYID,CATEGORY,CATEGORYDESCRIPTION
+IA2,Capacity,1,Federal Reserve Bank,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA2,Capacity,2,Swiss National Bank,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA2,Capacity,3,Bank of England,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA2,Capacity,4,European Central Bank,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA2,Capacity,5,Bank of Japan,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA2,Capacity,6,Reserve Bank of Australia,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA2,Capacity,7,Bank of Canada,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA2,Capacity,8,Other Central Bank,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA2,Capacity,9,Federal Home Loan Bank,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA2,Capacity,11,Other Government Sponsored Entity,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA3,Unrestricted Reserve Balances,1,Federal Reserve Bank,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA3,Unrestricted Reserve Balances,2,Swiss National Bank,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA3,Unrestricted Reserve Balances,3,Bank of England,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA3,Unrestricted Reserve Balances,4,European Central Bank,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA3,Unrestricted Reserve Balances,5,Bank of Japan,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA3,Unrestricted Reserve Balances,6,Reserve Bank of Australia,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA3,Unrestricted Reserve Balances,7,Bank of Canada,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA3,Unrestricted Reserve Balances,8,Other Central Bank,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA3,Unrestricted Reserve Balances,10,Other Cash,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA4,Restricted Reserve Balances,1,Federal Reserve Bank,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA4,Restricted Reserve Balances,2,Swiss National Bank,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA4,Restricted Reserve Balances,3,Bank of England,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA4,Restricted Reserve Balances,4,European Central Bank,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA4,Restricted Reserve Balances,5,Bank of Japan,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA4,Restricted Reserve Balances,6,Reserve Bank of Australia,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA4,Restricted Reserve Balances,7,Bank of Canada,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA4,Restricted Reserve Balances,8,Other Central Bank,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA4,Restricted Reserve Balances,10,Other Cash,IA,Inflows-Assets,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+IA1,Unencumbered Assets,1,Consolidated Firm,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA1,Unencumbered Assets,3,Lead Bank,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA1,Unencumbered Assets,4,Other Bank,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA1,Unencumbered Assets,5,Branch,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA1,Unencumbered Assets,6,Broker-Dealer,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA2,Capacity,1,Consolidated Firm,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA2,Capacity,3,Lead Bank,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA3,Unrestricted Reserve Balances,1,Consolidated Firm,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA3,Unrestricted Reserve Balances,3,Lead Bank,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA3,Unrestricted Reserve Balances,4,Other Bank,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA3,Unrestricted Reserve Balances,5,Branch,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA4,Restricted Reserve Balances,1,Consolidated Firm,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA4,Restricted Reserve Balances,3,Lead Bank,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA4,Restricted Reserve Balances,4,Other Bank,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA4,Restricted Reserve Balances,5,Branch,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA5,Unsettled Asset Purchases,6,Broker-Dealer,IA,Inflows-Assets,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IA1,Unencumbered Assets,1,Forward Start Product Exclusions,IA,Inflows-Assets,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+IA2,Capacity,1,Forward Start Product Exclusions,IA,Inflows-Assets,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+IA3,Unrestricted Reserve Balances,1,Forward Start Product Exclusions,IA,Inflows-Assets,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+IA4,Restricted Reserve Balances,1,Forward Start Product Exclusions,IA,Inflows-Assets,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+IA1,Unencumbered Assets,1,Consolidated Firm,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IA1,Unencumbered Assets,3,Lead Bank,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IA1,Unencumbered Assets,4,Other Bank,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IA1,Unencumbered Assets,5,Branch,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IA1,Unencumbered Assets,6,Broker-Dealer,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IA2,Capacity,1,Consolidated Firm,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IA2,Capacity,3,Lead Bank,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IA3,Unrestricted Reserve Balances,1,Consolidated Firm,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IA3,Unrestricted Reserve Balances,3,Lead Bank,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IA3,Unrestricted Reserve Balances,4,Other Bank,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IA3,Unrestricted Reserve Balances,5,Branch,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IA4,Restricted Reserve Balances,1,Consolidated Firm,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IA4,Restricted Reserve Balances,3,Lead Bank,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IA4,Restricted Reserve Balances,4,Other Bank,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IA4,Restricted Reserve Balances,5,Branch,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IA5,Unsettled Asset Purchases,6,Broker-Dealer,IA,Inflows-Assets,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IO1,Derivative Receivables,1,Consolidated Firm,IO,Inflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IO1,Derivative Receivables,3,Lead Bank,IO,Inflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IO1,Derivative Receivables,6,Broker-Dealer,IO,Inflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IO2,Collateral Called for Receipt,1,Consolidated Firm,IO,Inflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IO2,Collateral Called for Receipt,3,Lead Bank,IO,Inflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IO2,Collateral Called for Receipt,6,Broker-Dealer,IO,Inflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IO5,Lock-up Balance,6,Broker-Dealer,IO,Inflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IO6,Interest and Dividends Receivable,1,Consolidated Firm,IO,Inflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IO6,Interest and Dividends Receivable,3,Lead Bank,IO,Inflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IO6,Interest and Dividends Receivable,6,Broker-Dealer,IO,Inflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IO7,Net 30-Day Derivative Receivables,1,Consolidated Firm,IO,Inflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IO7,Net 30-Day Derivative Receivables,3,Lead Bank,IO,Inflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IO7,Net 30-Day Derivative Receivables,6,Broker-Dealer,IO,Inflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IO8,Principal Payments Receivable on Unencumbered Investment Securities,3,Lead Bank,IO,Inflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IO8,Principal Payments Receivable on Unencumbered Investment Securities,6,Broker-Dealer,IO,Inflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IO1,Derivative Receivables,3,Collateral Class Not Applicable,IO,Inflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+IO2,Collateral Called for Receipt,1,Collateral Class Required,IO,Inflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+IO3,TBA Sales,1,Collateral Class Required,IO,Inflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+IO4,Undrawn Committed Facilities Purchased,2,Collateral Class Depended,IO,Inflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+IO5,Lock-up Balance,3,Collateral Class Not Applicable,IO,Inflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+IO6,Interest and Dividends Receivable,2,Collateral Class Depended,IO,Inflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+IO7,Net 30-Day Derivative Receivables,3,Collateral Class Not Applicable,IO,Inflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+IO8,Principal Payments Receivable on Unencumbered Investment Securities,1,Collateral Class Required,IO,Inflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+IO9,Other Cash Inflows,2,Collateral Class Depended,IO,Inflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+IO1,Derivative Receivables,1,Forward Start Product Exclusions,IO,Inflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+IO2,Collateral Called for Receipt,1,Forward Start Product Exclusions,IO,Inflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+IO3,TBA Sales,1,Forward Start Product Exclusions,IO,Inflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+IO4,Undrawn Committed Facilities Purchased,1,Forward Start Product Exclusions,IO,Inflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+IO5,Lock-up Balance,1,Forward Start Product Exclusions,IO,Inflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+IO6,Interest and Dividends Receivable,1,Forward Start Product Exclusions,IO,Inflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+IO7,Net 30-Day Derivative Receivables,1,Forward Start Product Exclusions,IO,Inflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+IO8,Principal Payments Receivable on Unencumbered Investment Securities,1,Forward Start Product Exclusions,IO,Inflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+IO9,Other Cash Inflows,1,Forward Start Product Exclusions,IO,Inflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+IO1,Derivative Receivables,1,Derivatives,IO,Inflows-Other,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IO2,Collateral Called for Receipt,1,Derivatives,IO,Inflows-Other,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IO4,Undrawn Committed Facilities Purchased,2,Commitments,IO,Inflows-Other,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IO6,Interest and Dividends Receivable,3,Interest and Dividents,IO,Inflows-Other,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IO9,Other Cash Inflows,1,Other Product,IO,Inflows-Other,11,Large Other Products,Post submission validation (14). Large Other Product or Counterparty Balance.
+IO1,Derivative Receivables,1,Consolidated Firm,IO,Inflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IO1,Derivative Receivables,3,Lead Bank,IO,Inflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IO1,Derivative Receivables,6,Broker-Dealer,IO,Inflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IO2,Collateral Called for Receipt,1,Consolidated Firm,IO,Inflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IO2,Collateral Called for Receipt,3,Lead Bank,IO,Inflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IO2,Collateral Called for Receipt,6,Broker-Dealer,IO,Inflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IO5,Lock-up Balance,6,Broker-Dealer,IO,Inflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IO6,Interest and Dividends Receivable,1,Consolidated Firm,IO,Inflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IO6,Interest and Dividends Receivable,3,Lead Bank,IO,Inflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IO6,Interest and Dividends Receivable,6,Broker-Dealer,IO,Inflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IO7,Net 30-Day Derivative Receivables,1,Consolidated Firm,IO,Inflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IO7,Net 30-Day Derivative Receivables,3,Lead Bank,IO,Inflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IO7,Net 30-Day Derivative Receivables,6,Broker-Dealer,IO,Inflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IO8,Principal Payments Receivable on Unencumbered Investment Securities,3,Lead Bank,IO,Inflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IO8,Principal Payments Receivable on Unencumbered Investment Securities,6,Broker-Dealer,IO,Inflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IS4,Collateral Swaps,1,Level 1 Pledged,IS,Inflows-Secured,2,Pledge level,Pledge Level. Product/Sub-Product requirements. Report instructions
+IS4,Collateral Swaps,2,Level 2a Pledged,IS,Inflows-Secured,2,Pledge level,Pledge Level. Product/Sub-Product requirements. Report instructions
+IS4,Collateral Swaps,3,Level 2b Pledged,IS,Inflows-Secured,2,Pledge level,Pledge Level. Product/Sub-Product requirements. Report instructions
+IS4,Collateral Swaps,4,Non-HQLA Pledged,IS,Inflows-Secured,2,Pledge level,Pledge Level. Product/Sub-Product requirements. Report instructions
+IS1,Reverse Repo,3,Non-Financial Corporate,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS1,Reverse Repo,4,Sovereign,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS1,Reverse Repo,5,Central Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS1,Reverse Repo,6,Government Sponsored Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS1,Reverse Repo,7,Public Sector Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS1,Reverse Repo,8,Multilateral Development Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS1,Reverse Repo,9,Other Supranational,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS1,Reverse Repo,10,Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS1,Reverse Repo,11,Supervised Non-Bank Financial Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS1,Reverse Repo,12,Debt Issuing Special Purpose Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS1,Reverse Repo,13,Other Financial Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS1,Reverse Repo,15,Other,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS2,Securities Borrowing,3,Non-Financial Corporate,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS2,Securities Borrowing,4,Sovereign,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS2,Securities Borrowing,5,Central Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS2,Securities Borrowing,6,Government Sponsored Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS2,Securities Borrowing,7,Public Sector Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS2,Securities Borrowing,8,Multilateral Development Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS2,Securities Borrowing,9,Other Supranational,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS2,Securities Borrowing,10,Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS2,Securities Borrowing,11,Supervised Non-Bank Financial Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS2,Securities Borrowing,12,Debt Issuing Special Purpose Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS2,Securities Borrowing,13,Other Financial Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS2,Securities Borrowing,15,Other,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS3,Dollar Rolls,3,Non-Financial Corporate,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS3,Dollar Rolls,4,Sovereign,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS3,Dollar Rolls,5,Central Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS3,Dollar Rolls,6,Government Sponsored Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS3,Dollar Rolls,7,Public Sector Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS3,Dollar Rolls,8,Multilateral Development Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS3,Dollar Rolls,9,Other Supranational,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS3,Dollar Rolls,10,Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS3,Dollar Rolls,11,Supervised Non-Bank Financial Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS3,Dollar Rolls,12,Debt Issuing Special Purpose Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS3,Dollar Rolls,13,Other Financial Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS3,Dollar Rolls,15,Other,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS4,Collateral Swaps,3,Non-Financial Corporate,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS4,Collateral Swaps,4,Sovereign,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS4,Collateral Swaps,5,Central Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS4,Collateral Swaps,6,Government Sponsored Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS4,Collateral Swaps,7,Public Sector Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS4,Collateral Swaps,8,Multilateral Development Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS4,Collateral Swaps,9,Other Supranational,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS4,Collateral Swaps,10,Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS4,Collateral Swaps,11,Supervised Non-Bank Financial Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS4,Collateral Swaps,12,Debt Issuing Special Purpose Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS4,Collateral Swaps,13,Other Financial Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS4,Collateral Swaps,15,Other,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS5,Margin Loans,1,Retail,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS5,Margin Loans,2,Small Business,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS5,Margin Loans,3,Non-Financial Corporate,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS5,Margin Loans,4,Sovereign,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS5,Margin Loans,5,Central Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS5,Margin Loans,6,Government Sponsored Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS5,Margin Loans,7,Public Sector Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS5,Margin Loans,8,Multilateral Development Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS5,Margin Loans,9,Other Supranational,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS5,Margin Loans,10,Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS5,Margin Loans,11,Supervised Non-Bank Financial Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS5,Margin Loans,12,Debt Issuing Special Purpose Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS5,Margin Loans,13,Other Financial Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS5,Margin Loans,15,Other,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS6,Other Secured Loans - Rehypothecatable,1,Retail,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS6,Other Secured Loans - Rehypothecatable,2,Small Business,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS6,Other Secured Loans - Rehypothecatable,3,Non-Financial Corporate,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS6,Other Secured Loans - Rehypothecatable,4,Sovereign,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS6,Other Secured Loans - Rehypothecatable,5,Central Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS6,Other Secured Loans - Rehypothecatable,6,Government Sponsored Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS6,Other Secured Loans - Rehypothecatable,7,Public Sector Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS6,Other Secured Loans - Rehypothecatable,8,Multilateral Development Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS6,Other Secured Loans - Rehypothecatable,9,Other Supranational,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS6,Other Secured Loans - Rehypothecatable,10,Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS6,Other Secured Loans - Rehypothecatable,11,Supervised Non-Bank Financial Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS6,Other Secured Loans - Rehypothecatable,12,Debt Issuing Special Purpose Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS6,Other Secured Loans - Rehypothecatable,13,Other Financial Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS6,Other Secured Loans - Rehypothecatable,15,Other,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS7,Other Secured Loans - Non-Rehypothecatable,1,Retail,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS7,Other Secured Loans - Non-Rehypothecatable,2,Small Business,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS7,Other Secured Loans - Non-Rehypothecatable,3,Non-Financial Corporate,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS7,Other Secured Loans - Non-Rehypothecatable,4,Sovereign,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS7,Other Secured Loans - Non-Rehypothecatable,5,Central Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS7,Other Secured Loans - Non-Rehypothecatable,6,Government Sponsored Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS7,Other Secured Loans - Non-Rehypothecatable,7,Public Sector Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS7,Other Secured Loans - Non-Rehypothecatable,8,Multilateral Development Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS7,Other Secured Loans - Non-Rehypothecatable,9,Other Supranational,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS7,Other Secured Loans - Non-Rehypothecatable,10,Bank,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS7,Other Secured Loans - Non-Rehypothecatable,11,Supervised Non-Bank Financial Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS7,Other Secured Loans - Non-Rehypothecatable,12,Debt Issuing Special Purpose Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS7,Other Secured Loans - Non-Rehypothecatable,13,Other Financial Entity,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS7,Other Secured Loans - Non-Rehypothecatable,15,Other,IS,Inflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IS1,Reverse Repo,1,Consolidated Firm,IS,Inflows-Secured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IS1,Reverse Repo,3,Lead Bank,IS,Inflows-Secured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IS1,Reverse Repo,6,Broker-Dealer,IS,Inflows-Secured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IS2,Securities Borrowing,6,Broker-Dealer,IS,Inflows-Secured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IS5,Margin Loans,6,Broker-Dealer,IS,Inflows-Secured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IS7,Other Secured Loans - Non-Rehypothecatable,1,Consolidated Firm,IS,Inflows-Secured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IS1,Reverse Repo,4,Secured,IS,Inflows-Secured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IS2,Securities Borrowing,4,Secured,IS,Inflows-Secured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IS3,Dollar Rolls,4,Secured,IS,Inflows-Secured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IS4,Collateral Swaps,4,Secured,IS,Inflows-Secured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IS5,Margin Loans,4,Secured,IS,Inflows-Secured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IS6,Other Secured Loans - Rehypothecatable,4,Secured,IS,Inflows-Secured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IS7,Other Secured Loans - Non-Rehypothecatable,4,Secured,IS,Inflows-Secured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IS1,Reverse Repo,1,Consolidated Firm,IS,Inflows-Secured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IS1,Reverse Repo,3,Lead Bank,IS,Inflows-Secured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IS1,Reverse Repo,6,Broker-Dealer,IS,Inflows-Secured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IS2,Securities Borrowing,6,Broker-Dealer,IS,Inflows-Secured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IS5,Margin Loans,6,Broker-Dealer,IS,Inflows-Secured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IS7,Other Secured Loans - Non-Rehypothecatable,1,Consolidated Firm,IS,Inflows-Secured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IU1,Onshore Placements,3,Non-Financial Corporate,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU1,Onshore Placements,4,Sovereign,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU1,Onshore Placements,5,Central Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU1,Onshore Placements,6,Government Sponsored Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU1,Onshore Placements,7,Public Sector Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU1,Onshore Placements,8,Multilateral Development Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU1,Onshore Placements,9,Other Supranational,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU1,Onshore Placements,10,Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU1,Onshore Placements,11,Supervised Non-Bank Financial Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU1,Onshore Placements,12,Debt Issuing Special Purpose Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU1,Onshore Placements,13,Other Financial Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU1,Onshore Placements,15,Other,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU2,Offshore Placements,3,Non-Financial Corporate,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU2,Offshore Placements,4,Sovereign,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU2,Offshore Placements,5,Central Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU2,Offshore Placements,6,Government Sponsored Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU2,Offshore Placements,7,Public Sector Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU2,Offshore Placements,8,Multilateral Development Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU2,Offshore Placements,9,Other Supranational,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU2,Offshore Placements,10,Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU2,Offshore Placements,11,Supervised Non-Bank Financial Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU2,Offshore Placements,12,Debt Issuing Special Purpose Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU2,Offshore Placements,13,Other Financial Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU2,Offshore Placements,15,Other,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU3,Required Nostro Accounts,3,Non-Financial Corporate,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU3,Required Nostro Accounts,4,Sovereign,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU3,Required Nostro Accounts,5,Central Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU3,Required Nostro Accounts,6,Government Sponsored Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU3,Required Nostro Accounts,7,Public Sector Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU3,Required Nostro Accounts,8,Multilateral Development Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU3,Required Nostro Accounts,9,Other Supranational,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU3,Required Nostro Accounts,10,Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU3,Required Nostro Accounts,11,Supervised Non-Bank Financial Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU3,Required Nostro Accounts,12,Debt Issuing Special Purpose Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU3,Required Nostro Accounts,13,Other Financial Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU3,Required Nostro Accounts,15,Other,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU4,Excess Nostro Accounts,3,Non-Financial Corporate,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU4,Excess Nostro Accounts,4,Sovereign,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU4,Excess Nostro Accounts,5,Central Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU4,Excess Nostro Accounts,6,Government Sponsored Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU4,Excess Nostro Accounts,7,Public Sector Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU4,Excess Nostro Accounts,8,Multilateral Development Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU4,Excess Nostro Accounts,9,Other Supranational,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU4,Excess Nostro Accounts,10,Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU4,Excess Nostro Accounts,11,Supervised Non-Bank Financial Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU4,Excess Nostro Accounts,12,Debt Issuing Special Purpose Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU4,Excess Nostro Accounts,13,Other Financial Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU4,Excess Nostro Accounts,15,Other,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU5,Outstanding Draws on Revolving Credit Facilities,1,Retail,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU5,Outstanding Draws on Revolving Credit Facilities,2,Small Business,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU5,Outstanding Draws on Revolving Credit Facilities,3,Non-Financial Corporate,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU5,Outstanding Draws on Revolving Credit Facilities,4,Sovereign,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU5,Outstanding Draws on Revolving Credit Facilities,5,Central Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU5,Outstanding Draws on Revolving Credit Facilities,6,Government Sponsored Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU5,Outstanding Draws on Revolving Credit Facilities,7,Public Sector Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU5,Outstanding Draws on Revolving Credit Facilities,8,Multilateral Development Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU5,Outstanding Draws on Revolving Credit Facilities,9,Other Supranational,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU5,Outstanding Draws on Revolving Credit Facilities,10,Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU5,Outstanding Draws on Revolving Credit Facilities,11,Supervised Non-Bank Financial Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU5,Outstanding Draws on Revolving Credit Facilities,12,Debt Issuing Special Purpose Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU5,Outstanding Draws on Revolving Credit Facilities,13,Other Financial Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU5,Outstanding Draws on Revolving Credit Facilities,15,Other,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU6,Other Loans,1,Retail,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU6,Other Loans,2,Small Business,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU6,Other Loans,3,Non-Financial Corporate,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU6,Other Loans,4,Sovereign,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU6,Other Loans,5,Central Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU6,Other Loans,6,Government Sponsored Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU6,Other Loans,7,Public Sector Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU6,Other Loans,8,Multilateral Development Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU6,Other Loans,9,Other Supranational,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU6,Other Loans,10,Bank,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU6,Other Loans,11,Supervised Non-Bank Financial Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU6,Other Loans,12,Debt Issuing Special Purpose Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU6,Other Loans,13,Other Financial Entity,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU6,Other Loans,15,Other,IU,Inflows-Unsecured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+IU2,Offshore Placements,5,Branch,IU,Inflows-Unsecured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IU6,Other Loans,1,Consolidated Firm,IU,Inflows-Unsecured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IU6,Other Loans,3,Lead Bank,IU,Inflows-Unsecured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IU6,Other Loans,4,Other Bank,IU,Inflows-Unsecured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IU6,Other Loans,5,Branch,IU,Inflows-Unsecured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+IU3,Required Nostro Accounts,1,Forward Start Product Exclusions,IU,Inflows-Unsecured,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+IU4,Excess Nostro Accounts,1,Forward Start Product Exclusions,IU,Inflows-Unsecured,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+IU1,Onshore Placements,5,Unsecured,IU,Inflows-Unsecured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IU2,Offshore Placements,5,Unsecured,IU,Inflows-Unsecured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IU3,Required Nostro Accounts,5,Unsecured,IU,Inflows-Unsecured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IU4,Excess Nostro Accounts,5,Unsecured,IU,Inflows-Unsecured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IU5,Outstanding Draws on Revolving Credit Facilities,5,Unsecured,IU,Inflows-Unsecured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IU6,Other Loans,5,Unsecured,IU,Inflows-Unsecured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+IU2,Offshore Placements,5,Branch,IU,Inflows-Unsecured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IU6,Other Loans,1,Consolidated Firm,IU,Inflows-Unsecured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IU6,Other Loans,3,Lead Bank,IU,Inflows-Unsecured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IU6,Other Loans,4,Other Bank,IU,Inflows-Unsecured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+IU6,Other Loans,5,Branch,IU,Inflows-Unsecured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OD1,Transactional Accounts,1,Retail,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD1,Transactional Accounts,2,Small Business,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD10,Other Product Sweep Accounts,1,Retail,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD10,Other Product Sweep Accounts,2,Small Business,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD10,Other Product Sweep Accounts,3,Non-Financial Corporate,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD10,Other Product Sweep Accounts,4,Sovereign,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD10,Other Product Sweep Accounts,5,Central Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD10,Other Product Sweep Accounts,6,Government Sponsored Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD10,Other Product Sweep Accounts,7,Public Sector Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD10,Other Product Sweep Accounts,8,Multilateral Development Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD10,Other Product Sweep Accounts,9,Other Supranational,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD10,Other Product Sweep Accounts,10,Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD10,Other Product Sweep Accounts,11,Supervised Non-Bank Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD10,Other Product Sweep Accounts,12,Debt Issuing Special Purpose Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD10,Other Product Sweep Accounts,13,Other Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD10,Other Product Sweep Accounts,15,Other,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD11,Reciprocal Accounts,1,Retail,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD11,Reciprocal Accounts,2,Small Business,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD11,Reciprocal Accounts,3,Non-Financial Corporate,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD11,Reciprocal Accounts,4,Sovereign,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD11,Reciprocal Accounts,5,Central Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD11,Reciprocal Accounts,6,Government Sponsored Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD11,Reciprocal Accounts,7,Public Sector Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD11,Reciprocal Accounts,8,Multilateral Development Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD11,Reciprocal Accounts,9,Other Supranational,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD11,Reciprocal Accounts,10,Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD11,Reciprocal Accounts,11,Supervised Non-Bank Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD11,Reciprocal Accounts,12,Debt Issuing Special Purpose Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD11,Reciprocal Accounts,13,Other Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD11,Reciprocal Accounts,15,Other,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD12,Other Third-Party Deposits,1,Retail,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD12,Other Third-Party Deposits,2,Small Business,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD12,Other Third-Party Deposits,3,Non-Financial Corporate,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD12,Other Third-Party Deposits,4,Sovereign,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD12,Other Third-Party Deposits,5,Central Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD12,Other Third-Party Deposits,6,Government Sponsored Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD12,Other Third-Party Deposits,7,Public Sector Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD12,Other Third-Party Deposits,8,Multilateral Development Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD12,Other Third-Party Deposits,9,Other Supranational,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD12,Other Third-Party Deposits,10,Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD12,Other Third-Party Deposits,11,Supervised Non-Bank Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD12,Other Third-Party Deposits,12,Debt Issuing Special Purpose Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD12,Other Third-Party Deposits,13,Other Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD12,Other Third-Party Deposits,15,Other,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD13,Other Accounts,1,Retail,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD13,Other Accounts,2,Small Business,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD13,Other Accounts,3,Non-Financial Corporate,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD13,Other Accounts,4,Sovereign,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD13,Other Accounts,5,Central Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD13,Other Accounts,6,Government Sponsored Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD13,Other Accounts,7,Public Sector Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD13,Other Accounts,8,Multilateral Development Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD13,Other Accounts,9,Other Supranational,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD13,Other Accounts,10,Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD13,Other Accounts,11,Supervised Non-Bank Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD13,Other Accounts,12,Debt Issuing Special Purpose Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD13,Other Accounts,13,Other Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD13,Other Accounts,15,Other,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD2,Non-Transactional Relationship Accounts,1,Retail,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD2,Non-Transactional Relationship Accounts,2,Small Business,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD3,Non-Transactional Non-Relationship Accounts,1,Retail,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD3,Non-Transactional Non-Relationship Accounts,2,Small Business,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD4,Operational Accounts,3,Non-Financial Corporate,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD4,Operational Accounts,4,Sovereign,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD4,Operational Accounts,5,Central Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD4,Operational Accounts,6,Government Sponsored Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD4,Operational Accounts,7,Public Sector Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD4,Operational Accounts,8,Multilateral Development Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD4,Operational Accounts,9,Other Supranational,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD4,Operational Accounts,10,Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD4,Operational Accounts,11,Supervised Non-Bank Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD4,Operational Accounts,12,Debt Issuing Special Purpose Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD4,Operational Accounts,13,Other Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD4,Operational Accounts,15,Other,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD5,Non-Operational Accounts,3,Non-Financial Corporate,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD5,Non-Operational Accounts,4,Sovereign,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD5,Non-Operational Accounts,5,Central Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD5,Non-Operational Accounts,6,Government Sponsored Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD5,Non-Operational Accounts,7,Public Sector Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD5,Non-Operational Accounts,8,Multilateral Development Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD5,Non-Operational Accounts,9,Other Supranational,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD5,Non-Operational Accounts,10,Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD5,Non-Operational Accounts,11,Supervised Non-Bank Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD5,Non-Operational Accounts,12,Debt Issuing Special Purpose Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD5,Non-Operational Accounts,13,Other Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD5,Non-Operational Accounts,15,Other,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD6,Mortgage Escrow Accounts,1,Retail,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD6,Mortgage Escrow Accounts,2,Small Business,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD6,Mortgage Escrow Accounts,3,Non-Financial Corporate,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD6,Mortgage Escrow Accounts,4,Sovereign,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD6,Mortgage Escrow Accounts,5,Central Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD6,Mortgage Escrow Accounts,6,Government Sponsored Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD6,Mortgage Escrow Accounts,7,Public Sector Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD6,Mortgage Escrow Accounts,8,Multilateral Development Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD6,Mortgage Escrow Accounts,9,Other Supranational,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD6,Mortgage Escrow Accounts,10,Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD6,Mortgage Escrow Accounts,11,Supervised Non-Bank Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD6,Mortgage Escrow Accounts,12,Debt Issuing Special Purpose Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD6,Mortgage Escrow Accounts,13,Other Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD6,Mortgage Escrow Accounts,15,Other,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD7,Non-Reciprocal Brokered Accounts,1,Retail,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD7,Non-Reciprocal Brokered Accounts,2,Small Business,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD7,Non-Reciprocal Brokered Accounts,3,Non-Financial Corporate,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD7,Non-Reciprocal Brokered Accounts,4,Sovereign,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD7,Non-Reciprocal Brokered Accounts,5,Central Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD7,Non-Reciprocal Brokered Accounts,6,Government Sponsored Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD7,Non-Reciprocal Brokered Accounts,7,Public Sector Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD7,Non-Reciprocal Brokered Accounts,8,Multilateral Development Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD7,Non-Reciprocal Brokered Accounts,9,Other Supranational,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD7,Non-Reciprocal Brokered Accounts,10,Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD7,Non-Reciprocal Brokered Accounts,11,Supervised Non-Bank Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD7,Non-Reciprocal Brokered Accounts,12,Debt Issuing Special Purpose Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD7,Non-Reciprocal Brokered Accounts,13,Other Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD7,Non-Reciprocal Brokered Accounts,15,Other,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD8,Affiliated Sweep Accounts,1,Retail,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD8,Affiliated Sweep Accounts,2,Small Business,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD8,Affiliated Sweep Accounts,3,Non-Financial Corporate,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD8,Affiliated Sweep Accounts,4,Sovereign,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD8,Affiliated Sweep Accounts,5,Central Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD8,Affiliated Sweep Accounts,6,Government Sponsored Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD8,Affiliated Sweep Accounts,7,Public Sector Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD8,Affiliated Sweep Accounts,8,Multilateral Development Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD8,Affiliated Sweep Accounts,9,Other Supranational,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD8,Affiliated Sweep Accounts,10,Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD8,Affiliated Sweep Accounts,11,Supervised Non-Bank Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD8,Affiliated Sweep Accounts,12,Debt Issuing Special Purpose Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD8,Affiliated Sweep Accounts,13,Other Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD8,Affiliated Sweep Accounts,15,Other,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD9,Non-Affiliated Sweep Accounts,1,Retail,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD9,Non-Affiliated Sweep Accounts,2,Small Business,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD9,Non-Affiliated Sweep Accounts,3,Non-Financial Corporate,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD9,Non-Affiliated Sweep Accounts,4,Sovereign,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD9,Non-Affiliated Sweep Accounts,5,Central Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD9,Non-Affiliated Sweep Accounts,6,Government Sponsored Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD9,Non-Affiliated Sweep Accounts,7,Public Sector Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD9,Non-Affiliated Sweep Accounts,8,Multilateral Development Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD9,Non-Affiliated Sweep Accounts,9,Other Supranational,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD9,Non-Affiliated Sweep Accounts,10,Bank,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD9,Non-Affiliated Sweep Accounts,11,Supervised Non-Bank Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD9,Non-Affiliated Sweep Accounts,12,Debt Issuing Special Purpose Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD9,Non-Affiliated Sweep Accounts,13,Other Financial Entity,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD9,Non-Affiliated Sweep Accounts,15,Other,OD,Outflows-Deposits,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OD1,Transactional Accounts,1,Consolidated Firm,OD,Outflows-Deposits,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OD1,Transactional Accounts,3,Lead Bank,OD,Outflows-Deposits,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OD2,Non-Transactional Relationship Accounts,1,Consolidated Firm,OD,Outflows-Deposits,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OD2,Non-Transactional Relationship Accounts,3,Lead Bank,OD,Outflows-Deposits,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OD3,Non-Transactional Non-Relationship Accounts,1,Consolidated Firm,OD,Outflows-Deposits,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OD3,Non-Transactional Non-Relationship Accounts,3,Lead Bank,OD,Outflows-Deposits,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OD4,Operational Accounts,1,Consolidated Firm,OD,Outflows-Deposits,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OD4,Operational Accounts,3,Lead Bank,OD,Outflows-Deposits,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OD4,Operational Accounts,4,Other Bank,OD,Outflows-Deposits,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OD4,Operational Accounts,5,Branch,OD,Outflows-Deposits,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OD5,Non-Operational Accounts,1,Consolidated Firm,OD,Outflows-Deposits,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OD5,Non-Operational Accounts,3,Lead Bank,OD,Outflows-Deposits,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OD5,Non-Operational Accounts,4,Other Bank,OD,Outflows-Deposits,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OD5,Non-Operational Accounts,5,Branch,OD,Outflows-Deposits,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OD1,Transactional Accounts,1,Collateral Class Required,OD,Outflows-Deposits,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OD10,Other Product Sweep Accounts,1,Collateral Class Required,OD,Outflows-Deposits,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OD11,Reciprocal Accounts,1,Collateral Class Required,OD,Outflows-Deposits,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OD12,Other Third-Party Deposits,1,Collateral Class Required,OD,Outflows-Deposits,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OD13,Other Accounts,1,Collateral Class Required,OD,Outflows-Deposits,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OD2,Non-Transactional Relationship Accounts,1,Collateral Class Required,OD,Outflows-Deposits,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OD3,Non-Transactional Non-Relationship Accounts,1,Collateral Class Required,OD,Outflows-Deposits,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OD4,Operational Accounts,1,Collateral Class Required,OD,Outflows-Deposits,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OD5,Non-Operational Accounts,1,Collateral Class Required,OD,Outflows-Deposits,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OD6,Mortgage Escrow Accounts,1,Collateral Class Required,OD,Outflows-Deposits,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OD7,Non-Reciprocal Brokered Accounts,1,Collateral Class Required,OD,Outflows-Deposits,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OD8,Affiliated Sweep Accounts,1,Collateral Class Required,OD,Outflows-Deposits,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OD9,Non-Affiliated Sweep Accounts,1,Collateral Class Required,OD,Outflows-Deposits,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OD4,Operational Accounts,5,Unsecured,OD,Outflows-Deposits,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OD5,Non-Operational Accounts,5,Unsecured,OD,Outflows-Deposits,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OD12,Other Third-Party Deposits,1,Other Product,OD,Outflows-Deposits,11,Large Other Products,Post submission validation (14). Large Other Product or Counterparty Balance.
+OD13,Other Accounts,1,Other Product,OD,Outflows-Deposits,11,Large Other Products,Post submission validation (14). Large Other Product or Counterparty Balance.
+OD1,Transactional Accounts,1,Consolidated Firm,OD,Outflows-Deposits,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OD1,Transactional Accounts,3,Lead Bank,OD,Outflows-Deposits,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OD2,Non-Transactional Relationship Accounts,1,Consolidated Firm,OD,Outflows-Deposits,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OD2,Non-Transactional Relationship Accounts,3,Lead Bank,OD,Outflows-Deposits,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OD3,Non-Transactional Non-Relationship Accounts,1,Consolidated Firm,OD,Outflows-Deposits,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OD3,Non-Transactional Non-Relationship Accounts,3,Lead Bank,OD,Outflows-Deposits,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OD4,Operational Accounts,1,Consolidated Firm,OD,Outflows-Deposits,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OD4,Operational Accounts,3,Lead Bank,OD,Outflows-Deposits,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OD4,Operational Accounts,4,Other Bank,OD,Outflows-Deposits,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OD4,Operational Accounts,5,Branch,OD,Outflows-Deposits,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OD5,Non-Operational Accounts,1,Consolidated Firm,OD,Outflows-Deposits,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OD5,Non-Operational Accounts,3,Lead Bank,OD,Outflows-Deposits,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OD5,Non-Operational Accounts,4,Other Bank,OD,Outflows-Deposits,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OD5,Non-Operational Accounts,5,Branch,OD,Outflows-Deposits,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO4,Credit Facilities,1,Retail,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO4,Credit Facilities,2,Small Business,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO4,Credit Facilities,3,Non-Financial Corporate,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO4,Credit Facilities,4,Sovereign,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO4,Credit Facilities,5,Central Bank,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO4,Credit Facilities,6,Government Sponsored Entity,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO4,Credit Facilities,7,Public Sector Entity,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO4,Credit Facilities,8,Multilateral Development Bank,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO4,Credit Facilities,9,Other Supranational,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO4,Credit Facilities,10,Bank,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO4,Credit Facilities,11,Supervised Non-Bank Financial Entity,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO4,Credit Facilities,12,Debt Issuing Special Purpose Entity,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO4,Credit Facilities,13,Other Financial Entity,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO4,Credit Facilities,15,Other,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO5,Liquidity Facilities,1,Retail,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO5,Liquidity Facilities,2,Small Business,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO5,Liquidity Facilities,3,Non-Financial Corporate,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO5,Liquidity Facilities,4,Sovereign,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO5,Liquidity Facilities,5,Central Bank,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO5,Liquidity Facilities,6,Government Sponsored Entity,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO5,Liquidity Facilities,7,Public Sector Entity,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO5,Liquidity Facilities,8,Multilateral Development Bank,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO5,Liquidity Facilities,9,Other Supranational,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO5,Liquidity Facilities,10,Bank,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO5,Liquidity Facilities,11,Supervised Non-Bank Financial Entity,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO5,Liquidity Facilities,12,Debt Issuing Special Purpose Entity,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO5,Liquidity Facilities,13,Other Financial Entity,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO5,Liquidity Facilities,14,Municipalities for VRDN Structures,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO5,Liquidity Facilities,15,Other,OO,Outflows-Other,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OO1,Derivative Payables,1,Consolidated Firm,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO1,Derivative Payables,3,Lead Bank,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO1,Derivative Payables,6,Broker-Dealer,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO12,Loss of Rehypothecation Rights Due to a Change in Financial Condition,1,Consolidated Firm,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO16,Total Collateral Required Due to a Change in Financial Condition,1,Consolidated Firm,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO19,Interest and Dividends Payable,1,Consolidated Firm,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO19,Interest and Dividends Payable,3,Lead Bank,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO19,Interest and Dividends Payable,6,Broker-Dealer,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO2,Collateral Called for Delivery,1,Consolidated Firm,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO2,Collateral Called for Delivery,3,Lead Bank,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO2,Collateral Called for Delivery,6,Broker-Dealer,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO20,Net 30-Day Derivative Payables,1,Consolidated Firm,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO20,Net 30-Day Derivative Payables,3,Lead Bank,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO20,Net 30-Day Derivative Payables,6,Broker-Dealer,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO4,Credit Facilities,1,Consolidated Firm,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO4,Credit Facilities,3,Lead Bank,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO4,Credit Facilities,4,Other Bank,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO4,Credit Facilities,5,Branch,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO5,Liquidity Facilities,1,Consolidated Firm,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO5,Liquidity Facilities,3,Lead Bank,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO5,Liquidity Facilities,5,Branch,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO6,Retail Mortgage Commitments,1,Consolidated Firm,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO8,MTM Impact on Derivative Positions,1,Consolidated Firm,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO8,MTM Impact on Derivative Positions,3,Lead Bank,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO8,MTM Impact on Derivative Positions,6,Broker-Dealer,OO,Outflows-Other,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OO1,Derivative Payables,3,Collateral Class Not Applicable,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO10,Loss of Rehypothecation Rights Due to a 2 Notch Downgrade,1,Collateral Class Required,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO11,Loss of Rehypothecation Rights Due to a 3 Notch Downgrade,1,Collateral Class Required,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO12,Loss of Rehypothecation Rights Due to a Change in Financial Condition,1,Collateral Class Required,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO13,Total Collateral Required Due to a 1 Notch Downgrade,1,Collateral Class Required,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO14,Total Collateral Required Due to a 2 Notch Downgrade,1,Collateral Class Required,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO15,Total Collateral Required Due to a 3 Notch Downgrade,1,Collateral Class Required,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO16,Total Collateral Required Due to a Change in Financial Condition,1,Collateral Class Required,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO17,Excess Margin,2,Collateral Class Depended,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO18,Unfunded Term Margin,2,Collateral Class Depended,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO19,Interest and Dividends Payable,2,Collateral Class Depended,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO2,Collateral Called for Delivery,1,Collateral Class Required,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO20,Net 30-Day Derivative Payables,3,Collateral Class Not Applicable,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO21,Other Outflows Related to Structured Transactions,3,Collateral Class Not Applicable,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO22,Other Cash Outflows,1,Collateral Class Required,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO3,TBA Purchases,1,Collateral Class Required,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO4,Credit Facilities,2,Collateral Class Depended,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO5,Liquidity Facilities,2,Collateral Class Depended,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO6,Retail Mortgage Commitments,2,Collateral Class Depended,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO7,Trade Finance Instruments,2,Collateral Class Depended,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO8,MTM Impact on Derivative Positions,3,Collateral Class Not Applicable,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO9,Loss of Rehypothecation Rights Due to a 1 Notch Downgrade,1,Collateral Class Required,OO,Outflows-Other,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OO1,Derivative Payables,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO10,Loss of Rehypothecation Rights Due to a 2 Notch Downgrade,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO11,Loss of Rehypothecation Rights Due to a 3 Notch Downgrade,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO12,Loss of Rehypothecation Rights Due to a Change in Financial Condition,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO13,Total Collateral Required Due to a 1 Notch Downgrade,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO14,Total Collateral Required Due to a 2 Notch Downgrade,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO15,Total Collateral Required Due to a 3 Notch Downgrade,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO16,Total Collateral Required Due to a Change in Financial Condition,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO17,Excess Margin,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO18,Unfunded Term Margin,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO19,Interest and Dividends Payable,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO2,Collateral Called for Delivery,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO20,Net 30-Day Derivative Payables,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO21,Other Outflows Related to Structured Transactions,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO22,Other Cash Outflows,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO3,TBA Purchases,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO4,Credit Facilities,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO5,Liquidity Facilities,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO6,Retail Mortgage Commitments,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO7,Trade Finance Instruments,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO8,MTM Impact on Derivative Positions,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO9,Loss of Rehypothecation Rights Due to a 1 Notch Downgrade,1,Forward Start Product Exclusions,OO,Outflows-Other,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OO1,Derivative Payables,1,Derivatives,OO,Outflows-Other,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OO19,Interest and Dividends Payable,3,Interest and Dividents,OO,Outflows-Other,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OO2,Collateral Called for Delivery,1,Derivatives,OO,Outflows-Other,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OO4,Credit Facilities,2,Commitments,OO,Outflows-Other,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OO5,Liquidity Facilities,2,Commitments,OO,Outflows-Other,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OO21,Other Outflows Related to Structured Transactions,1,Other Product,OO,Outflows-Other,11,Large Other Products,Post submission validation (14). Large Other Product or Counterparty Balance.
+OO22,Other Cash Outflows,1,Other Product,OO,Outflows-Other,11,Large Other Products,Post submission validation (14). Large Other Product or Counterparty Balance.
+OO1,Derivative Payables,1,Consolidated Firm,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO1,Derivative Payables,3,Lead Bank,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO1,Derivative Payables,6,Broker-Dealer,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO12,Loss of Rehypothecation Rights Due to a Change in Financial Condition,1,Consolidated Firm,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO16,Total Collateral Required Due to a Change in Financial Condition,1,Consolidated Firm,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO19,Interest and Dividends Payable,1,Consolidated Firm,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO19,Interest and Dividends Payable,3,Lead Bank,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO19,Interest and Dividends Payable,6,Broker-Dealer,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO2,Collateral Called for Delivery,1,Consolidated Firm,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO2,Collateral Called for Delivery,3,Lead Bank,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO2,Collateral Called for Delivery,6,Broker-Dealer,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO20,Net 30-Day Derivative Payables,1,Consolidated Firm,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO20,Net 30-Day Derivative Payables,3,Lead Bank,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO20,Net 30-Day Derivative Payables,6,Broker-Dealer,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO4,Credit Facilities,1,Consolidated Firm,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO4,Credit Facilities,3,Lead Bank,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO4,Credit Facilities,4,Other Bank,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO4,Credit Facilities,5,Branch,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO5,Liquidity Facilities,1,Consolidated Firm,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO5,Liquidity Facilities,3,Lead Bank,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO5,Liquidity Facilities,5,Branch,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO6,Retail Mortgage Commitments,1,Consolidated Firm,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO8,MTM Impact on Derivative Positions,1,Consolidated Firm,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO8,MTM Impact on Derivative Positions,3,Lead Bank,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OO8,MTM Impact on Derivative Positions,6,Broker-Dealer,OO,Outflows-Other,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OS6,Exceptional Central Bank Operations,1,Federal Reserve Bank,OS,Outflows-Secured,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+OS6,Exceptional Central Bank Operations,2,Swiss National Bank,OS,Outflows-Secured,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+OS6,Exceptional Central Bank Operations,3,Bank of England,OS,Outflows-Secured,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+OS6,Exceptional Central Bank Operations,4,European Central Bank,OS,Outflows-Secured,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+OS6,Exceptional Central Bank Operations,5,Bank of Japan,OS,Outflows-Secured,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+OS6,Exceptional Central Bank Operations,6,Reserve Bank of Australia,OS,Outflows-Secured,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+OS6,Exceptional Central Bank Operations,7,Bank of Canada,OS,Outflows-Secured,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+OS6,Exceptional Central Bank Operations,8,Other Central Bank,OS,Outflows-Secured,1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+OS4,Collateral Swaps,16,Level 1 Received,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS4,Collateral Swaps,17,Level 2a Received,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS4,Collateral Swaps,18,Level 2b Received,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS4,Collateral Swaps,19,Non-HQLA Received,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS7,Customer Shorts,9,External Cash Transactions,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS7,Customer Shorts,10,External Non-Cash Transactions,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS7,Customer Shorts,11,Firm Longs,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS7,Customer Shorts,12,Customer Longs,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS7,Customer Shorts,13,Firm Long with Associated Derivative,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS7,Customer Shorts,14,Unsettled - Regular Way,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS7,Customer Shorts,15,Unsettled - Forward,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS8,Firm Shorts,9,External Cash Transactions,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS8,Firm Shorts,10,External Non-Cash Transactions,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS8,Firm Shorts,11,Firm Longs,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS8,Firm Shorts,12,Customer Longs,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS8,Firm Shorts,13,Firm Long with Associated Derivative,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS8,Firm Shorts,14,Unsettled - Regular Way,OS,Outflows-Secured,3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+OS1,Repo,3,Non-Financial Corporate,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS1,Repo,4,Sovereign,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS1,Repo,5,Central Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS1,Repo,6,Government Sponsored Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS1,Repo,7,Public Sector Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS1,Repo,8,Multilateral Development Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS1,Repo,9,Other Supranational,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS1,Repo,10,Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS1,Repo,11,Supervised Non-Bank Financial Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS1,Repo,12,Debt Issuing Special Purpose Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS1,Repo,13,Other Financial Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS1,Repo,15,Other,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS2,Securities Lending,3,Non-Financial Corporate,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS2,Securities Lending,4,Sovereign,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS2,Securities Lending,5,Central Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS2,Securities Lending,6,Government Sponsored Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS2,Securities Lending,7,Public Sector Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS2,Securities Lending,8,Multilateral Development Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS2,Securities Lending,9,Other Supranational,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS2,Securities Lending,10,Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS2,Securities Lending,11,Supervised Non-Bank Financial Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS2,Securities Lending,12,Debt Issuing Special Purpose Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS2,Securities Lending,13,Other Financial Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS2,Securities Lending,15,Other,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS3,Dollar Rolls,3,Non-Financial Corporate,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS3,Dollar Rolls,4,Sovereign,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS3,Dollar Rolls,5,Central Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS3,Dollar Rolls,6,Government Sponsored Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS3,Dollar Rolls,7,Public Sector Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS3,Dollar Rolls,8,Multilateral Development Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS3,Dollar Rolls,9,Other Supranational,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS3,Dollar Rolls,10,Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS3,Dollar Rolls,11,Supervised Non-Bank Financial Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS3,Dollar Rolls,12,Debt Issuing Special Purpose Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS3,Dollar Rolls,13,Other Financial Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS3,Dollar Rolls,15,Other,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS4,Collateral Swaps,3,Non-Financial Corporate,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS4,Collateral Swaps,4,Sovereign,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS4,Collateral Swaps,5,Central Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS4,Collateral Swaps,6,Government Sponsored Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS4,Collateral Swaps,7,Public Sector Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS4,Collateral Swaps,8,Multilateral Development Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS4,Collateral Swaps,9,Other Supranational,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS4,Collateral Swaps,10,Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS4,Collateral Swaps,11,Supervised Non-Bank Financial Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS4,Collateral Swaps,12,Debt Issuing Special Purpose Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS4,Collateral Swaps,13,Other Financial Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS4,Collateral Swaps,15,Other,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS5,Federal Home Loan Bank Advances,6,Government Sponsored Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS6,Exceptional Central Bank Operations,5,Central Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS7,Customer Shorts,1,Retail,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS7,Customer Shorts,2,Small Business,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS7,Customer Shorts,3,Non-Financial Corporate,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS7,Customer Shorts,4,Sovereign,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS7,Customer Shorts,5,Central Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS7,Customer Shorts,6,Government Sponsored Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS7,Customer Shorts,7,Public Sector Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS7,Customer Shorts,8,Multilateral Development Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS7,Customer Shorts,9,Other Supranational,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS7,Customer Shorts,10,Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS7,Customer Shorts,11,Supervised Non-Bank Financial Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS7,Customer Shorts,12,Debt Issuing Special Purpose Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS7,Customer Shorts,13,Other Financial Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS7,Customer Shorts,15,Other,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS9,Other Secured Financing Transactions,3,Non-Financial Corporate,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS9,Other Secured Financing Transactions,4,Sovereign,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS9,Other Secured Financing Transactions,5,Central Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS9,Other Secured Financing Transactions,6,Government Sponsored Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS9,Other Secured Financing Transactions,7,Public Sector Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS9,Other Secured Financing Transactions,8,Multilateral Development Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS9,Other Secured Financing Transactions,9,Other Supranational,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS9,Other Secured Financing Transactions,10,Bank,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS9,Other Secured Financing Transactions,11,Supervised Non-Bank Financial Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS9,Other Secured Financing Transactions,12,Debt Issuing Special Purpose Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS9,Other Secured Financing Transactions,13,Other Financial Entity,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS9,Other Secured Financing Transactions,15,Other,OS,Outflows-Secured,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OS1,Repo,1,Consolidated Firm,OS,Outflows-Secured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OS1,Repo,6,Broker-Dealer,OS,Outflows-Secured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OS2,Securities Lending,6,Broker-Dealer,OS,Outflows-Secured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OS5,Federal Home Loan Bank Advances,1,Consolidated Firm,OS,Outflows-Secured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OS7,Customer Shorts,6,Broker-Dealer,OS,Outflows-Secured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OS8,Firm Shorts,6,Broker-Dealer,OS,Outflows-Secured,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OS1,Repo,4,Secured,OS,Outflows-Secured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OS2,Securities Lending,4,Secured,OS,Outflows-Secured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OS3,Dollar Rolls,4,Secured,OS,Outflows-Secured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OS4,Collateral Swaps,4,Secured,OS,Outflows-Secured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OS9,Other Secured Financing Transactions,4,Secured,OS,Outflows-Secured,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OS9,Other Secured Financing Transactions,1,Other Product,OS,Outflows-Secured,11,Large Other Products,Post submission validation (14). Large Other Product or Counterparty Balance.
+OS1,Repo,1,Consolidated Firm,OS,Outflows-Secured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OS1,Repo,6,Broker-Dealer,OS,Outflows-Secured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OS2,Securities Lending,6,Broker-Dealer,OS,Outflows-Secured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OS5,Federal Home Loan Bank Advances,1,Consolidated Firm,OS,Outflows-Secured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OS7,Customer Shorts,6,Broker-Dealer,OS,Outflows-Secured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OS8,Firm Shorts,6,Broker-Dealer,OS,Outflows-Secured,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OW10,Offshore Borrowing,3,Non-Financial Corporate,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW10,Offshore Borrowing,4,Sovereign,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW10,Offshore Borrowing,5,Central Bank,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW10,Offshore Borrowing,6,Government Sponsored Entity,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW10,Offshore Borrowing,7,Public Sector Entity,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW10,Offshore Borrowing,8,Multilateral Development Bank,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW10,Offshore Borrowing,9,Other Supranational,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW10,Offshore Borrowing,10,Bank,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW10,Offshore Borrowing,11,Supervised Non-Bank Financial Entity,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW10,Offshore Borrowing,12,Debt Issuing Special Purpose Entity,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW10,Offshore Borrowing,13,Other Financial Entity,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW10,Offshore Borrowing,15,Other,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW9,Onshore Borrowing,3,Non-Financial Corporate,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW9,Onshore Borrowing,4,Sovereign,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW9,Onshore Borrowing,5,Central Bank,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW9,Onshore Borrowing,6,Government Sponsored Entity,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW9,Onshore Borrowing,7,Public Sector Entity,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW9,Onshore Borrowing,8,Multilateral Development Bank,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW9,Onshore Borrowing,9,Other Supranational,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW9,Onshore Borrowing,10,Bank,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW9,Onshore Borrowing,11,Supervised Non-Bank Financial Entity,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW9,Onshore Borrowing,12,Debt Issuing Special Purpose Entity,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW9,Onshore Borrowing,13,Other Financial Entity,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW9,Onshore Borrowing,15,Other,OW,Outflows-Wholesale,6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+OW11,Unstructured Long Term Debt,1,Consolidated Firm,OW,Outflows-Wholesale,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OW11,Unstructured Long Term Debt,2,Stand-alone Parent Company,OW,Outflows-Wholesale,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OW14,Unsecured Notes,1,Consolidated Firm,OW,Outflows-Wholesale,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OW14,Unsecured Notes,2,Stand-alone Parent Company,OW,Outflows-Wholesale,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OW18,Free Credits,6,Broker-Dealer,OW,Outflows-Wholesale,7,Entity Type,Entity Type - matches type in StandardEntityType table
+OW1,ABCP Single-Seller,1,Collateral Class Required,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW10,Offshore Borrowing,3,Collateral Class Not Applicable,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW11,Unstructured Long Term Debt,3,Collateral Class Not Applicable,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW12,Structured Long Term Debt,3,Collateral Class Not Applicable,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW13,Government Supported Debt,3,Collateral Class Not Applicable,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW14,Unsecured Notes,3,Collateral Class Not Applicable,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW15,Structured Notes,3,Collateral Class Not Applicable,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW16,Wholesale CDs,3,Collateral Class Not Applicable,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW17,Draws on Committed Lines,2,Collateral Class Depended,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW18,Free Credits,3,Collateral Class Not Applicable,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW19,Other Unsecured Financing,3,Collateral Class Not Applicable,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW2,ABCP Multi-Seller,1,Collateral Class Required,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW3,Collateralized CP,1,Collateral Class Required,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW4,ABS,1,Collateral Class Required,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW5,Covered Bonds,1,Collateral Class Required,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW6,Tender Option Bonds,1,Collateral Class Required,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW7,Other Asset-Backed Financing,1,Collateral Class Required,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW8,Commercial Paper,3,Collateral Class Not Applicable,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW9,Onshore Borrowing,3,Collateral Class Not Applicable,OW,Outflows-Wholesale,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+OW18,Free Credits,1,Forward Start Product Exclusions,OW,Outflows-Wholesale,9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+OW1,ABCP Single-Seller,4,Secured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW10,Offshore Borrowing,5,Unsecured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW11,Unstructured Long Term Debt,5,Unsecured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW12,Structured Long Term Debt,5,Unsecured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW13,Government Supported Debt,5,Unsecured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW14,Unsecured Notes,5,Unsecured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW15,Structured Notes,5,Unsecured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW16,Wholesale CDs,5,Unsecured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW17,Draws on Committed Lines,5,Unsecured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW18,Free Credits,5,Unsecured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW19,Other Unsecured Financing,5,Unsecured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW2,ABCP Multi-Seller,4,Secured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW3,Collateralized CP,4,Secured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW4,ABS,4,Secured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW5,Covered Bonds,4,Secured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW6,Tender Option Bonds,4,Secured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW7,Other Asset-Backed Financing,4,Secured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW8,Commercial Paper,5,Unsecured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW9,Onshore Borrowing,5,Unsecured,OW,Outflows-Wholesale,10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+OW19,Other Unsecured Financing,1,Other Product,OW,Outflows-Wholesale,11,Large Other Products,Post submission validation (14). Large Other Product or Counterparty Balance.
+OW7,Other Asset-Backed Financing,1,Other Product,OW,Outflows-Wholesale,11,Large Other Products,Post submission validation (14). Large Other Product or Counterparty Balance.
+OW11,Unstructured Long Term Debt,1,Consolidated Firm,OW,Outflows-Wholesale,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OW11,Unstructured Long Term Debt,2,Stand-alone Parent Company,OW,Outflows-Wholesale,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OW14,Unsecured Notes,1,Consolidated Firm,OW,Outflows-Wholesale,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OW14,Unsecured Notes,2,Stand-alone Parent Company,OW,Outflows-Wholesale,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+OW18,Free Credits,6,Broker-Dealer,OW,Outflows-Wholesale,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+SI1,Initial Margin Posted - House,1,Rehypothecateable Collateral Unencumbered,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI1,Initial Margin Posted - House,2,Rehypothecateable Collateral Encumbered,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI1,Initial Margin Posted - House,3,Non-Rehypothecateable Collateral,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI1,Initial Margin Posted - House,4,Segregated Cash,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI1,Initial Margin Posted - House,5,Non-Segregated Cash,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI2,Initial Margin Posted - Customer,1,Rehypothecateable Collateral Unencumbered,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI2,Initial Margin Posted - Customer,2,Rehypothecateable Collateral Encumbered,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI2,Initial Margin Posted - Customer,3,Non-Rehypothecateable Collateral,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI2,Initial Margin Posted - Customer,4,Segregated Cash,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI2,Initial Margin Posted - Customer,5,Non-Segregated Cash,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI3,Initial Margin Received,1,Rehypothecateable Collateral Unencumbered,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI3,Initial Margin Received,2,Rehypothecateable Collateral Encumbered,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI3,Initial Margin Received,3,Non-Rehypothecateable Collateral,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI3,Initial Margin Received,4,Segregated Cash,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI3,Initial Margin Received,5,Non-Segregated Cash,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI4,Variation Margin Posted - House,1,Rehypothecateable Collateral Unencumbered,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI4,Variation Margin Posted - House,2,Rehypothecateable Collateral Encumbered,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI4,Variation Margin Posted - House,3,Non-Rehypothecateable Collateral,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI4,Variation Margin Posted - House,4,Segregated Cash,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI4,Variation Margin Posted - House,5,Non-Segregated Cash,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI5,Variation Margin Posted - Customer,1,Rehypothecateable Collateral Unencumbered,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI5,Variation Margin Posted - Customer,2,Rehypothecateable Collateral Encumbered,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI5,Variation Margin Posted - Customer,3,Non-Rehypothecateable Collateral,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI5,Variation Margin Posted - Customer,4,Segregated Cash,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI5,Variation Margin Posted - Customer,5,Non-Segregated Cash,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI6,Variation Margin Received,1,Rehypothecateable Collateral Unencumbered,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI6,Variation Margin Received,2,Rehypothecateable Collateral Encumbered,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI6,Variation Margin Received,3,Non-Rehypothecateable Collateral,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI6,Variation Margin Received,4,Segregated Cash,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI6,Variation Margin Received,5,Non-Segregated Cash,SI,Supplemental-Informational,4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+SI1,Initial Margin Posted - House,1,Bilateral,SI,Supplemental-Informational,5,Settlement mechanism,Settlement Mechanism. Product/Counterparty requirements. Report instructions
+SI1,Initial Margin Posted - House,2,Centralized,SI,Supplemental-Informational,5,Settlement mechanism,Settlement Mechanism. Product/Counterparty requirements. Report instructions
+SI2,Initial Margin Posted - Customer,1,Bilateral,SI,Supplemental-Informational,5,Settlement mechanism,Settlement Mechanism. Product/Counterparty requirements. Report instructions
+SI2,Initial Margin Posted - Customer,2,Centralized,SI,Supplemental-Informational,5,Settlement mechanism,Settlement Mechanism. Product/Counterparty requirements. Report instructions
+SI3,Initial Margin Received,1,Bilateral,SI,Supplemental-Informational,5,Settlement mechanism,Settlement Mechanism. Product/Counterparty requirements. Report instructions
+SI3,Initial Margin Received,2,Centralized,SI,Supplemental-Informational,5,Settlement mechanism,Settlement Mechanism. Product/Counterparty requirements. Report instructions
+SI4,Variation Margin Posted - House,1,Bilateral,SI,Supplemental-Informational,5,Settlement mechanism,Settlement Mechanism. Product/Counterparty requirements. Report instructions
+SI4,Variation Margin Posted - House,2,Centralized,SI,Supplemental-Informational,5,Settlement mechanism,Settlement Mechanism. Product/Counterparty requirements. Report instructions
+SI5,Variation Margin Posted - Customer,1,Bilateral,SI,Supplemental-Informational,5,Settlement mechanism,Settlement Mechanism. Product/Counterparty requirements. Report instructions
+SI5,Variation Margin Posted - Customer,2,Centralized,SI,Supplemental-Informational,5,Settlement mechanism,Settlement Mechanism. Product/Counterparty requirements. Report instructions
+SI6,Variation Margin Received,1,Bilateral,SI,Supplemental-Informational,5,Settlement mechanism,Settlement Mechanism. Product/Counterparty requirements. Report instructions
+SI6,Variation Margin Received,2,Centralized,SI,Supplemental-Informational,5,Settlement mechanism,Settlement Mechanism. Product/Counterparty requirements. Report instructions
+SI1,Initial Margin Posted - House,6,Broker-Dealer,SI,Supplemental-Informational,7,Entity Type,Entity Type - matches type in StandardEntityType table
+SI15,Long Market Value Client Assets,6,Broker-Dealer,SI,Supplemental-Informational,7,Entity Type,Entity Type - matches type in StandardEntityType table
+SI16,Short Market Value Client Assets,6,Broker-Dealer,SI,Supplemental-Informational,7,Entity Type,Entity Type - matches type in StandardEntityType table
+SI19,Subsidiary Liquidity That Cannot Be Transferred,1,Consolidated Firm,SI,Supplemental-Informational,7,Entity Type,Entity Type - matches type in StandardEntityType table
+SI2,Initial Margin Posted - Customer,6,Broker-Dealer,SI,Supplemental-Informational,7,Entity Type,Entity Type - matches type in StandardEntityType table
+SI20,FRB 23A Capacity,2,Stand-alone Parent Company,SI,Supplemental-Informational,7,Entity Type,Entity Type - matches type in StandardEntityType table
+SI20,FRB 23A Capacity,3,Lead Bank,SI,Supplemental-Informational,7,Entity Type,Entity Type - matches type in StandardEntityType table
+SI20,FRB 23A Capacity,6,Broker-Dealer,SI,Supplemental-Informational,7,Entity Type,Entity Type - matches type in StandardEntityType table
+SI3,Initial Margin Received,6,Broker-Dealer,SI,Supplemental-Informational,7,Entity Type,Entity Type - matches type in StandardEntityType table
+SI4,Variation Margin Posted - House,6,Broker-Dealer,SI,Supplemental-Informational,7,Entity Type,Entity Type - matches type in StandardEntityType table
+SI5,Variation Margin Posted - Customer,6,Broker-Dealer,SI,Supplemental-Informational,7,Entity Type,Entity Type - matches type in StandardEntityType table
+SI6,Variation Margin Received,6,Broker-Dealer,SI,Supplemental-Informational,7,Entity Type,Entity Type - matches type in StandardEntityType table
+SI1,Initial Margin Posted - House,1,Collateral Class Required,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI10,Sleeper Collateral Receivables,1,Collateral Class Required,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI11,Derivative Collateral Substitution Risk,3,Collateral Class Not Applicable,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI12,Derivative Collateral Substitution Capacity,3,Collateral Class Not Applicable,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI13,Other Collateral Substitution Risk,3,Collateral Class Not Applicable,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI14,Other Collateral Substitution Capacity,3,Collateral Class Not Applicable,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI15,Long Market Value Client Assets,1,Collateral Class Required,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI16,Short Market Value Client Assets,1,Collateral Class Required,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI17,Gross Client Wires Received,3,Collateral Class Not Applicable,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI18,Gross Client Wires Paid,3,Collateral Class Not Applicable,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI19,Subsidiary Liquidity That Cannot Be Transferred,1,Collateral Class Required,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI2,Initial Margin Posted - Customer,1,Collateral Class Required,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI20,FRB 23A Capacity,3,Collateral Class Not Applicable,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI21,Unencumbered Asset Hedges - Early Termination Outflows,1,Collateral Class Required,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI22,Unencumbered Asset Hedges - Early Termination Inflows,1,Collateral Class Required,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI23,Non-Structured Debt Maturing in Greater than 30-days - Primary Market Maker,3,Collateral Class Not Applicable,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI24,Structured Debt Maturing in Greater than 30-days - Primary Market Maker,3,Collateral Class Not Applicable,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI3,Initial Margin Received,1,Collateral Class Required,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI4,Variation Margin Posted - House,1,Collateral Class Required,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI5,Variation Margin Posted - Customer,1,Collateral Class Required,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI6,Variation Margin Received,1,Collateral Class Required,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI7,Collateral Disputes Deliverables,3,Collateral Class Not Applicable,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI8,Collateral Disputes Receivables,3,Collateral Class Not Applicable,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI9,Sleeper Collateral Deliverables,1,Collateral Class Required,SI,Supplemental-Informational,8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+SI1,Initial Margin Posted - House,6,Broker-Dealer,SI,Supplemental-Informational,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+SI15,Long Market Value Client Assets,6,Broker-Dealer,SI,Supplemental-Informational,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+SI16,Short Market Value Client Assets,6,Broker-Dealer,SI,Supplemental-Informational,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+SI19,Subsidiary Liquidity That Cannot Be Transferred,1,Consolidated Firm,SI,Supplemental-Informational,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+SI2,Initial Margin Posted - Customer,6,Broker-Dealer,SI,Supplemental-Informational,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+SI20,FRB 23A Capacity,2,Stand-alone Parent Company,SI,Supplemental-Informational,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+SI20,FRB 23A Capacity,3,Lead Bank,SI,Supplemental-Informational,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+SI20,FRB 23A Capacity,6,Broker-Dealer,SI,Supplemental-Informational,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+SI3,Initial Margin Received,6,Broker-Dealer,SI,Supplemental-Informational,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+SI4,Variation Margin Posted - House,6,Broker-Dealer,SI,Supplemental-Informational,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+SI5,Variation Margin Posted - Customer,6,Broker-Dealer,SI,Supplemental-Informational,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
+SI6,Variation Margin Received,6,Broker-Dealer,SI,Supplemental-Informational,13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type

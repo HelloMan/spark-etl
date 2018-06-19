@@ -1,0 +1,37 @@
+{
+  "name": "employee",
+  "fields": [
+    {
+      "type": "long",
+      "name": "id",
+      "nullable": false,
+      "key": true
+    },
+    {
+      "type": "string",
+      "name": "name",
+      "nullable": false,
+      "maxLength": 15,
+      "minLength": 2
+    },
+    {
+      "type": "int",
+      "name": "age",
+      "nullable": false
+    },
+    {
+      "type": "string",
+      "name": "gender",
+      "nullable": false,
+      "maxLength": 6,
+      "regularExpression": "^(male|female)$"
+    },
+    {
+      "type": "date",
+      "name": "birthday",
+      "format": "yyyy-MM-dd",
+      "nullable" : true
+    }
+  ]
+}
+

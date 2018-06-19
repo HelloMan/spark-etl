@@ -1,0 +1,11 @@
+CODE,DESCRIPTION
+IA,Inflows-Assets
+IO,Inflows-Other
+IS,Inflows-Secured
+IU,Inflows-Unsecured
+OD,Outflows-Deposits
+OO,Outflows-Other
+OS,Outflows-Secured
+OW,Outflows-Wholesale
+SFX,Supplemental-Foreign Exchange
+SI,Supplemental-Informational

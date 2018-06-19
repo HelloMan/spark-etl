@@ -1,0 +1,15 @@
+{
+  "name" : "staging",
+  "items" : [ {
+    "id" : 1,
+    "source" : {
+      "type" : "csv",
+      "filePath" : "1_employee.csv"
+    },
+    "dataset" : {
+      "name" : "employee",
+      "metadata" : null
+    },
+    "table" : "employee"
+  } ]
+}

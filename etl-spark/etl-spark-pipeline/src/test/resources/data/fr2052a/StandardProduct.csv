@@ -1,0 +1,119 @@
+PID,TABLEID,DESCRIPTION
+IA1,IA,Unencumbered Assets
+IA2,IA,Capacity
+IA3,IA,Unrestricted Reserve Balances
+IA4,IA,Restricted Reserve Balances
+IA5,IA,Unsettled Asset Purchases
+IA6,IA,Forward Asset Purchases
+IO1,IO,Derivative Receivables
+IO2,IO,Collateral Called for Receipt
+IO3,IO,TBA Sales
+IO4,IO,Undrawn Committed Facilities Purchased
+IO5,IO,Lock-up Balance
+IO6,IO,Interest and Dividends Receivable
+IO7,IO,Net 30-Day Derivative Receivables
+IO8,IO,Principal Payments Receivable on Unencumbered Investment Securities
+IO9,IO,Other Cash Inflows
+IS1,IS,Reverse Repo
+IS2,IS,Securities Borrowing
+IS3,IS,Dollar Rolls
+IS4,IS,Collateral Swaps
+IS5,IS,Margin Loans
+IS6,IS,Other Secured Loans - Rehypothecatable
+IS7,IS,Other Secured Loans - Non-Rehypothecatable
+IU1,IU,Onshore Placements
+IU2,IU,Offshore Placements
+IU3,IU,Required Nostro Accounts
+IU4,IU,Excess Nostro Accounts
+IU5,IU,Outstanding Draws on Revolving Credit Facilities
+IU6,IU,Other Loans
+OD1,OD,Transactional Accounts
+OD10,OD,Other Product Sweep Accounts
+OD11,OD,Reciprocal Accounts
+OD12,OD,Other Third-Party Deposits
+OD13,OD,Other Accounts
+OD2,OD,Non-Transactional Relationship Accounts
+OD3,OD,Non-Transactional Non-Relationship Accounts
+OD4,OD,Operational Accounts
+OD5,OD,Non-Operational Accounts
+OD6,OD,Mortgage Escrow Accounts
+OD7,OD,Non-Reciprocal Brokered Accounts
+OD8,OD,Affiliated Sweep Accounts
+OD9,OD,Non-Affiliated Sweep Accounts
+OO1,OO,Derivative Payables
+OO10,OO,Loss of Rehypothecation Rights Due to a 2 Notch Downgrade
+OO11,OO,Loss of Rehypothecation Rights Due to a 3 Notch Downgrade
+OO12,OO,Loss of Rehypothecation Rights Due to a Change in Financial Condition
+OO13,OO,Total Collateral Required Due to a 1 Notch Downgrade
+OO14,OO,Total Collateral Required Due to a 2 Notch Downgrade
+OO15,OO,Total Collateral Required Due to a 3 Notch Downgrade
+OO16,OO,Total Collateral Required Due to a Change in Financial Condition
+OO17,OO,Excess Margin
+OO18,OO,Unfunded Term Margin
+OO19,OO,Interest and Dividends Payable
+OO2,OO,Collateral Called for Delivery
+OO20,OO,Net 30-Day Derivative Payables
+OO21,OO,Other Outflows Related to Structured Transactions
+OO22,OO,Other Cash Outflows
+OO3,OO,TBA Purchases
+OO4,OO,Credit Facilities
+OO5,OO,Liquidity Facilities
+OO6,OO,Retail Mortgage Commitments
+OO7,OO,Trade Finance Instruments
+OO8,OO,MTM Impact on Derivative Positions
+OO9,OO,Loss of Rehypothecation Rights Due to a 1 Notch Downgrade
+OS1,OS,Repo
+OS2,OS,Securities Lending
+OS3,OS,Dollar Rolls
+OS4,OS,Collateral Swaps
+OS5,OS,Federal Home Loan Bank Advances
+OS6,OS,Exceptional Central Bank Operations
+OS7,OS,Customer Shorts
+OS8,OS,Firm Shorts
+OS9,OS,Other Secured Financing Transactions
+OW1,OW,ABCP Single-Seller
+OW10,OW,Offshore Borrowing
+OW11,OW,Unstructured Long Term Debt
+OW12,OW,Structured Long Term Debt
+OW13,OW,Government Supported Debt
+OW14,OW,Unsecured Notes
+OW15,OW,Structured Notes
+OW16,OW,Wholesale CDs
+OW17,OW,Draws on Committed Lines
+OW18,OW,Free Credits
+OW19,OW,Other Unsecured Financing
+OW2,OW,ABCP Multi-Seller
+OW3,OW,Collateralized CP
+OW4,OW,ABS
+OW5,OW,Covered Bonds
+OW6,OW,Tender Option Bonds
+OW7,OW,Other Asset-Backed Financing
+OW8,OW,Commercial Paper
+OW9,OW,Onshore Borrowing
+SFX1,SFX,Spot
+SFX2,SFX,Forwards and Futures
+SFX3,SFX,Swaps
+SI1,SI,Initial Margin Posted - House
+SI10,SI,Sleeper Collateral Receivables
+SI11,SI,Derivative Collateral Substitution Risk
+SI12,SI,Derivative Collateral Substitution Capacity
+SI13,SI,Other Collateral Substitution Risk
+SI14,SI,Other Collateral Substitution Capacity
+SI15,SI,Long Market Value Client Assets
+SI16,SI,Short Market Value Client Assets
+SI17,SI,Gross Client Wires Received
+SI18,SI,Gross Client Wires Paid
+SI19,SI,Subsidiary Liquidity That Cannot Be Transferred
+SI2,SI,Initial Margin Posted - Customer
+SI20,SI,FRB 23A Capacity
+SI21,SI,Unencumbered Asset Hedges - Early Termination Outflows
+SI22,SI,Unencumbered Asset Hedges - Early Termination Inflows
+SI23,SI,Non-Structured Debt Maturing in Greater than 30-days - Primary Market Maker
+SI24,SI,Structured Debt Maturing in Greater than 30-days - Primary Market Maker
+SI3,SI,Initial Margin Received
+SI4,SI,Variation Margin Posted - House
+SI5,SI,Variation Margin Posted - Customer
+SI6,SI,Variation Margin Received
+SI7,SI,Collateral Disputes Deliverables
+SI8,SI,Collateral Disputes Receivables
+SI9,SI,Sleeper Collateral Deliverables

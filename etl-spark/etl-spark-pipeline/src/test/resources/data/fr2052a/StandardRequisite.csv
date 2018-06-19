@@ -1,0 +1,81 @@
+CATEGORYID,REQUISITEID,DESCRIPTION
+1,1,Federal Reserve Bank
+1,2,Swiss National Bank
+1,3,Bank of England
+1,4,European Central Bank
+1,5,Bank of Japan
+1,6,Reserve Bank of Australia
+1,7,Bank of Canada
+1,8,Other Central Bank
+1,9,Federal Home Loan Bank
+1,10,Other Cash
+1,11,Other Government Sponsored Entity
+2,1,Level 1 Pledged
+2,2,Level 2a Pledged
+2,3,Level 2b Pledged
+2,4,Non-HQLA Pledged
+3,1,Bank of Canada
+3,2,Bank of England
+3,3,Bank of Japan
+3,4,European Central Bank
+3,5,Reserve Bank of Australia
+3,6,Swiss National Bank
+3,7,Federal Reserve Bank
+3,8,Other Central Bank
+3,9,External Cash Transactions
+3,10,External Non-Cash Transactions
+3,11,Firm Longs
+3,12,Customer Longs
+3,13,Firm Long with Associated Derivative
+3,14,Unsettled - Regular Way
+3,15,Unsettled - Forward
+3,16,Level 1 Received
+3,17,Level 2a Received
+3,18,Level 2b Received
+3,19,Non-HQLA Received
+4,1,Rehypothecateable Collateral Unencumbered
+4,2,Rehypothecateable Collateral Encumbered
+4,3,Non-Rehypothecateable Collateral
+4,4,Segregated Cash
+4,5,Non-Segregated Cash
+5,1,Bilateral
+5,2,Centralized
+6,1,Retail
+6,2,Small Business
+6,3,Non-Financial Corporate
+6,4,Sovereign
+6,5,Central Bank
+6,6,Government Sponsored Entity
+6,7,Public Sector Entity
+6,8,Multilateral Development Bank
+6,9,Other Supranational
+6,10,Bank
+6,11,Supervised Non-Bank Financial Entity
+6,12,Debt Issuing Special Purpose Entity
+6,13,Other Financial Entity
+6,14,Municipalities for VRDN Structures
+6,15,Other
+7,1,Consolidated Firm
+7,2,Stand-alone Parent Company
+7,3,Lead Bank
+7,4,Other Bank
+7,5,Branch
+7,6,Broker-Dealer
+7,7,Other
+8,1,Collateral Class Required
+8,2,Collateral Class Depended
+8,3,Collateral Class Not Applicable
+9,1,Forward Start Product Exclusions
+10,1,Derivatives
+10,2,Commitments
+10,3,Interest and Dividents
+10,4,Secured
+10,5,Unsecured
+11,1,Other Product
+12,1,Other
+13,1,Consolidated Firm
+13,2,Stand-alone Parent Company
+13,3,Lead Bank
+13,4,Other Bank
+13,5,Branch
+13,6,Broker-Dealer

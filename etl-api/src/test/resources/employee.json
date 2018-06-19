@@ -1,0 +1,24 @@
+{
+    "name" : "employee",
+    "fields" : [ {
+        "type" : "int",
+        "name" : "id",
+        "nullable" : false,
+        "key" : true
+    }, {
+        "type" : "string",
+        "name" : "name",
+        "nullable" : false,
+        "maxLength" : 50,
+        "minLength" : 1
+    }, {
+        "type" : "int",
+        "name" : "age",
+        "nullable" : false
+    }, {
+        "type" : "date",
+        "name" : "birthDay",
+        "format" : "yyyy-MM-dd",
+        "nullable" : true
+    } ]
+}

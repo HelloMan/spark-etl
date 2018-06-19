@@ -1,0 +1,255 @@
+<izpack:userinput version="5.0"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:izpack="http://izpack.org/schema/userinput"
+		xsi:schemaLocation="http://izpack.org/schema/userinput http://izpack.org/schema/5.1/izpack-userinput-5.1.xsd">
+
+
+	<panel id="panel.install.mode">
+		<field type="title" txt="Installation mode" bold="true" size="1"/>
+		<field type="divider" align="top"/>
+		<field type="radio" variable="distributed">
+			<description txt="Installation Mode"/>
+			<spec>
+				<choice txt="Standalone" value="false"/>
+				<choice txt="Full Distributed" value="true"/>
+			</spec>
+		</field>
+
+	</panel>
+
+	<panel id="panel.allocate.hosts">
+		<field type="title" txt="Confirm all hosts which used to install FCR Engine" bold="true" size="1"/>
+		<field maxRow="10" minRow="1" type="custom" variable="hosts.count">
+			<spec>
+				<col>
+					<field type="text" variable="hosts">
+						<spec default="" size="30"/>
+					</field>
+					<validator txt="hosts should be unique" class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" />
+					<validator txt="hosts should be unique" class="com.izforge.izpack.panels.userinput.validator.UniqueValidator" />
+					<validator txt="You have to enter at least 3 hosts" class="etl.installer.panel.userinput.validation.HostsNumberValidator" >
+						<configuration>
+							<minHostNum>3</minHostNum>
+						</configuration>
+					</validator>
+					<validator txt="Illegal host ('127.0.0.1' and 'localhost' are not allowed)" class="etl.installer.panel.userinput.validation.HostsAddressValidator" />
+
+				</col>
+			</spec>
+		</field>
+	</panel>
+
+
+
+	<panel id="panel.assign.master">
+
+		<field type="title" txt="Assign master" bold="true" size="1"/>
+		<field type="divider" align="top"/>
+
+		<field type="combo" variable="hdfs.nn.host">
+			<spec txt="NameNode"  >
+				<choice processor="etl.installer.panel.userinput.processor.LoadServerIpProcessor" value="" />
+			</spec>
+		</field>
+
+		<field type="space" />
+
+		<field type="combo" variable="hdfs.sn.host">
+			<spec txt="Secondary NameNode">
+				<choice processor="etl.installer.panel.userinput.processor.LoadServerIpProcessor" value="" />
+			</spec>
+		</field>
+
+		<field type="space" />
+
+		<field type="combo" variable="yarn.rm.host">
+			<spec txt="ResourceManager" >
+				<choice processor="etl.installer.panel.userinput.processor.LoadServerIpProcessor" value="" />
+			</spec>
+		</field>
+
+		<field type="space" />
+
+		<field type="combo" variable="history.server.host">
+			<spec txt="HistoryServer"  >
+				<choice processor="etl.installer.panel.userinput.processor.LoadServerIpProcessor" value="" />
+			</spec>
+		</field>
+
+		<field type="space" />
+
+		<field type="combo" variable="hbase.master.host">
+			<spec txt="HMaster" >
+				<choice processor="etl.installer.panel.userinput.processor.LoadServerIpProcessor" value="" />
+			</spec>
+		</field>
+
+		<field type="space" />
+
+		<field type="text" variable="hbase.backup.master.hosts">
+			<spec  txt="HMaster Backup" size="30"    />
+			<validator txt="hosts should not be empty" class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" />
+			<validator txt="hosts should be unique" class="com.izforge.izpack.panels.userinput.validator.UniqueValidator" />
+			<validator txt="Illegal host ('127.0.0.1' and 'localhost' are not allowed)"
+					   class="etl.installer.panel.userinput.validation.HostsAddressValidator" />
+		</field>
+
+		<field type="space" />
+
+		<field type="text" variable="zookeeper.hosts">
+			<spec  txt="Zookeeper" size="30"  />
+			<validator txt="hosts should not be empty" class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" />
+			<validator txt="hosts should be unique" class="com.izforge.izpack.panels.userinput.validator.UniqueValidator" />
+			<validator txt="Illegal host ('127.0.0.1' and 'localhost' are not allowed)"
+					   class="etl.installer.panel.userinput.validation.HostsAddressValidator" />
+			<validator txt="Hosts for zookeeper must be odd number and at least 3 hosts"
+					   class="etl.installer.panel.userinput.validation.ZookeeperHostsValidator" />
+		</field>
+
+	</panel>
+
+	<panel id="panel.assign.slave.client">
+		<field type="title" txt="Assign slave and client" bold="true" size="1"/>
+		<field type="divider" align="top"/>
+
+		<field type="text" variable="yarn.nm.hosts">
+			<spec  txt="NodeManager" size="30"   />
+			<validator txt="hosts should be unique" class="com.izforge.izpack.panels.userinput.validator.UniqueValidator" />
+			<validator txt="hosts should not be empty" class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" />
+			<validator txt="Hosts for zookeeper must be odd number and at least 3 hosts"
+					   class="etl.installer.panel.userinput.validation.HostsAddressValidator" />
+		</field>
+
+		<field type="space" />
+
+		<field type="text" variable="hdfs.dn.hosts">
+			<spec  txt="DataNode" size="30"  />
+			<validator txt="hosts should not be empty" class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" />
+			<validator txt="hosts should be unique" class="com.izforge.izpack.panels.userinput.validator.UniqueValidator" />
+			<validator txt="Hosts for zookeeper must be odd number and at least 3 hosts"
+					   class="etl.installer.panel.userinput.validation.HostsAddressValidator" />
+		</field>
+
+		<field type="space" />
+
+		<field type="text" variable="hbase.regionserver.hosts">
+			<spec  txt="RegionServer" size="30"   />
+			<validator txt="hosts should not be empty" class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" />
+			<validator txt="hosts should be unique" class="com.izforge.izpack.panels.userinput.validator.UniqueValidator" />
+			<validator txt="Hosts for zookeeper must be odd number and at least 3 hosts"
+					   class="etl.installer.panel.userinput.validation.HostsAddressValidator" />
+		</field>
+
+		<field type="space" />
+
+		<field type="text" variable="phoenix.qs.hosts">
+			<spec  txt="Phoenix Query Server" size="30" />
+			<validator txt="hosts should not be empty" class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" />
+			<validator txt="hosts should be unique" class="com.izforge.izpack.panels.userinput.validator.UniqueValidator" />
+			<validator txt="Hosts for zookeeper must be odd number and at least 3 hosts"
+					   class="etl.installer.panel.userinput.validation.HostsAddressValidator" />
+		</field>
+
+		<field type="space" />
+
+		<field type="combo" variable="etl.host">
+			<spec txt="Ignis"  >
+				<choice processor="etl.installer.panel.userinput.processor.LoadServerIpProcessor" value="" />
+			</spec>
+		</field>
+
+	</panel>
+
+
+	<panel id="panel.config.etl">
+		<field type="title" txt="Config Ignis" bold="true" size="1"/>
+		<field type="divider" align="top"/>
+		<field type="text" variable="etl.http.port">
+			<spec txt="Ignis HTTP Port:" size="6"/>
+			<validator class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" txt="Port number can not be empty"/>
+			<validator class="com.izforge.izpack.panels.userinput.validator.IsPortValidator" txt="Invalid port number"/>
+		</field>
+
+		<field type="space" />
+
+		<field type="text" variable="etl.https.port">
+			<spec txt="Ignis HTTPs Port:" size="6"/>
+			<validator class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" txt="Port number can not be empty"/>
+			<validator class="com.izforge.izpack.panels.userinput.validator.IsPortValidator" txt="Invalid port number"/>
+		</field>
+
+		<field type="space" />
+
+		<field type="dir" variable="DATA_PATH">
+			<spec mustExist="false" txt="Data Path:" size="30"/>
+			<!--<spec mustExist="false" type="directory" size="30" />-->
+			<validator class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" txt="Data path can not be empty"/>
+		</field>
+
+	</panel>
+
+	<panel id="panel.database.type">
+		<field type="title" txt="Database Configuration" bold="true" size="1" />
+		<field type="divider" align="top" />
+		<field type="radio" variable="database.type"  >
+			<description txt="Database Type" id="database.type" />
+			<spec>
+				<choice txt="Oracle" id="Oracle" value="oracle"   />
+				<choice txt="MS SQL Server (SQL Server authentication)" id="SqlServer" value="sqlserver" />
+				<choice txt="MySQL" id="MySql" value="mysql" set="true"/>
+			</spec>
+		</field>
+	</panel>
+
+	<panel id="panel.database.connection">
+		<field type="title" txt="Database Configuration" bold="true" size="1" />
+		<field type="divider" align="top" />
+		<field type="text"  variable="database.server.ip" >
+			<spec txt="Database server host or address"  size="30" />
+		</field>
+		<field type="text"  variable="database.port" >
+			<spec txt="Database server port"  size="10" />
+			<validator class="com.izforge.izpack.panels.userinput.validator.IsPortValidator" txt="Database port is not valid!" />
+		</field>
+		<field type="text"  variable="database.name" align="right" conditionid="isMySqlorMsSqlServer">
+			<spec txt="Database name"   size="15" />
+			<validator class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" txt="Database name can not be empty!" />
+		</field>
+		<field type="text"  variable="database.instance"  align="left" conditionid="isOracleOrMsSqlServer">
+			<spec txt="${database.instance.txt}" size="15"   />
+			<validator class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" txt="Service name can not be empty!" />
+		</field>
+		<field type="text"  variable="database.oracle.tns"  conditionid="isOracle">
+			<spec txt="Oracle TNS connect string"  size="40" />
+		</field>
+		<field type="space" />
+		<field type="text"  variable="database.owner.user" >
+			<spec txt="Ignis owner username"   size="15" />
+			<validator class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" txt="User name can not be empty!" />
+		</field>
+		<field type="password"  variable="database.owner.password"   >
+			<spec  >
+				<pwd txt="Ignis owner password" size="15"   />
+			</spec>
+			<validator class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" txt="Password can not be empty!" />
+		</field>
+		<field type="space" />
+		<field type="text"  variable="database.app.user" >
+			<spec txt="Ignis application username"   size="15" />
+			<validator class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" txt="User name can not be empty!" />
+		</field>
+		<field type="password"  variable="database.app.password"   >
+			<spec  >
+				<pwd txt="Ignis application password" size="15"  />
+			</spec>
+			<validator class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" txt="Password can not be empty!" />
+		</field>
+		<field type="space" />
+		<field type="text"  variable="database.role.name" conditionid="isOracle">
+			<spec txt="Ignis database rolename"   size="15" />
+			<validator class="com.izforge.izpack.panels.userinput.validator.NotEmptyValidator" txt="Role name can not be empty!" />
+		</field>
+	</panel>
+
+
+</izpack:userinput>

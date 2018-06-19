@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>File Upload</title>
+<script src="/js/jquery-3.1.1.js" th:src="@{/js/jquery-3.1.1.js}"
+	type="text/javascript"></script>
+<script
+	src="/js/bootstrap-3.3.7-dist/js/bootstrap.min.js" th:src="@{/js/bootstrap-3.3.7-dist/js/bootstrap.min.js}"></script>
+<script
+	src="/js/dropzone-4.3.0/dist/dropzone.js" th:src="@{/js/dropzone-4.3.0/dist/dropzone.js}"></script>
+
+
+<link rel="stylesheet"
+	href="/js/bootstrap-3.3.7-dist/css/bootstrap.min.css" th:href="@{/js/bootstrap-3.3.7-dist/css/bootstrap.min.css}"/>
+<link rel="stylesheet"
+	href="/js/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" th:href="@{/js/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css}"/>
+<link rel="stylesheet"
+	href="/js/dropzone-4.3.0/dist/dropzone.css" th:href="@{/js/dropzone-4.3.0/dist/dropzone.css}"/>
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="panel panel-default" id="fileupload_main_panel">
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-md-12">
+						<form enctype="multipart/form-data"
+							action="/upload" method="POST" th:action="@{${#httpServletRequest.servletPath}}"
+							class="dropzone" id="fileUploadForm">
+
+							<span id="fileUploadStatus"> </span>
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

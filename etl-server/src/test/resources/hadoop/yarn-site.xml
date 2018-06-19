@@ -1,0 +1,16 @@
+<configuration>
+	<property>
+		<name>yarn.resourcemanager.hostname</name>
+		<value>namenode</value>
+		<description>The hostname of the Resource Manager </description>
+	</property>
+	<!--  http://stackoverflow.com/questions/29512565/spark-pi-example-in-cluster-mode-with-yarn-association-lost -->
+	<property>
+		<name>yarn.nodemanager.pmem-check-enabled</name>
+		<value>false</value>
+	</property>
+	<property>
+		<name>yarn.nodemanager.vmem-check-enabled</name>
+		<value>false</value>
+	</property>
+</configuration>

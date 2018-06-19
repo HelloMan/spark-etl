@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<izpack:installation version="5.0"
+					 xmlns:izpack="http://izpack.org/schema/installation"
+					 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					 xsi:schemaLocation="http://izpack.org/schema/installation http://izpack.org/schema/5.1/izpack-installation-5.1.xsd">
+
+	<info>
+		<appname>@{project.name}</appname>
+		<appversion>@{project.version}</appversion>
+		<javaversion>1.8</javaversion>
+		<requiresjdk>true</requiresjdk>
+		<appsubpath>Lombard Risk/@{project.name}</appsubpath>
+		<uninstaller write="no"/>
+		<writeinstallationinformation>no</writeinstallationinformation>
+		<summarylogfilepath>$INSTALL_PATH/log</summarylogfilepath>
+
+	</info>
+
+	<guiprefs height="450" width="800" resizable="no">
+	</guiprefs>
+
+	<variables>
+		<variable name="setup.type" value="setup"/>
+		<variable name="distributed" value="false"/>
+		<variable name="hosts" value="${IP_ADDRESS}"/>
+		<variable name="hdfs.nn.host" value="${IP_ADDRESS}"/>
+		<variable name="hdfs.sn.host" value="${IP_ADDRESS}"/>
+		<variable name="hdfs.dn.hosts" value="${IP_ADDRESS}"/>
+
+		<variable name="yarn.rm.host" value="${IP_ADDRESS}"/>
+		<variable name="yarn.nm.hosts" value="${IP_ADDRESS}"/>
+		<variable name="history.server.host" value="${IP_ADDRESS}"/>
+
+		<variable name="hbase.master.host" value="${IP_ADDRESS}"/>
+		<variable name="hbase.backup.master.hosts" value="${IP_ADDRESS}"/>
+		<variable name="hbase.regionserver.hosts" value="${IP_ADDRESS}"/>
+		<variable name="phoenix.qs.hosts" value="${IP_ADDRESS}"/>
+
+		<variable name="zookeeper.hosts" value="${IP_ADDRESS}" />
+
+		<variable name="etl.host" value="${IP_ADDRESS}"/>
+
+		<variable name="etl.http.port" value="8080"/>
+
+		<variable name="db.type" value="oracle"/>
+		<variable name="database.jdbc.url" value="jdbc:mysql://mysql:3306/etl"/>
+		<variable name="database.owner.user" value="etl"/>
+		<variable name="database.owner.password" value="password"/>
+		<variable name="database.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+		<variable name="database.hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+
+		<variable name="hadoop.user" value="${USER_NAME}"/>
+	</variables>
+
+	<dynamicvariables>
+		<variable name="DATA_PATH" value="${INSTALL_PATH}/data"/>
+		<variable name="IGNIS_HOME" value="${INSTALL_PATH}/services/@{etl.file}"/>
+		<variable name="HADOOP_HOME" value="${INSTALL_PATH}/services/@{hadoop.file}"/>
+		<variable name="HBASE_HOME" value="${INSTALL_PATH}/services/@{hbase.file}"/>
+		<variable name="PHOENIX_HOME" value="${INSTALL_PATH}/services/@{phoenix.file}"/>
+		<variable name="ZOOKEEPER_HOME" value="${INSTALL_PATH}/services/@{zookeeper.file}"/>
+	</dynamicvariables>
+
+
+	<conditions>
+		<condition id="isStandalone" type="variable">
+			<name>distributed</name>
+			<value>false</value>
+		</condition>
+		<condition id="isDistributed" type="variable">
+			<name>distributed</name>
+			<value>true</value>
+		</condition>
+		<condition id="isSetupMode" type="variable">
+			<name>setup.type</name>
+			<value>setup</value>
+		</condition>
+		<condition id="isInstallMode" type="variable">
+			<name>setup.type</name>
+			<value>install</value>
+		</condition>
+	</conditions>
+
+	<locale>
+		<langpack iso3="eng"/>
+	</locale>
+
+	<jar src="packs/distro/lib/etl-builder.jar" stage="install"/>
+
+	<listeners>
+		<listener classname="AntActionInstallerListener" stage="install"/>
+	</listeners>
+
+	<resources>
+		<res id="customicons.xml" src="customicons.xml"/>
+		<res id="logo" src="images/logo.png"/>
+		<res id="userInputSpec.xml" src="panel/userinput/userInputSpec.xml" type="xml"/>
+		<res id="AntActionsSpec.xml" src="actionspec/AntActionsSpec.xml" type="xml"/>
+		<res id="userInputLang.xml" src="lang/userInputLang.xml" type="xml"/>
+	</resources>
+
+	<panels>
+		<panel classname="TargetPanel" />
+		<panel classname="UserInputPanel" id="panel.install.mode" />
+		<panel classname="InstallPanel"/>
+		<panel classname="SimpleFinishPanel"/>
+	</panels>
+
+	<packs>
+		<pack name="core" required="true" >
+			<description>prepare install</description>
+			<parsable type="plain">
+				<fileset targetdir="${INSTALL_PATH}/conf" includes="system.properties"/>
+			</parsable>
+			<parsable type="ant" encoding="UTF-8" >
+				<fileset targetdir="${INSTALL_PATH}/conf" includes="build.xml"/>
+			</parsable>
+			<!-- configuration for bin dir -->
+			<parsable type="shell" >
+				<fileset targetdir="${INSTALL_PATH}/bin" includes="env.sh"/>
+			</parsable>
+		</pack>
+
+		<pack name="zookeeper"  required="true">
+			<description>install and setup zookeeper</description>
+			<depends packname="core"/>
+			<fileset dir="packs/distro/services/@{zookeeper.file}" targetdir="${INSTALL_PATH}/services" override="true"/>
+			<!-- configuration for ZOOKEEPER -->
+			<parsable type="plain" >
+				<fileset targetdir="${ZOOKEEPER_HOME}/conf" includes="zoo.cfg"/>
+			</parsable>
+			<executable type="bin" stage="postinstall" targetfile="${INSTALL_PATH}/conf/config.sh" keep="true" failure="abort" >
+				<os family="unix"/>
+				<args>
+					<arg value="zookeeper"/>
+				</args>
+			</executable>
+		</pack>
+
+		<pack name="hadoop"  required="true">
+			<description>install and setup hadoop</description>
+			<depends packname="core" />
+			<fileset dir="packs/distro/services/@{hadoop.file}" targetdir="${HADOOP_HOME}" override="true"/>
+			<!-- configuration for hadoop -->
+			<parsable type="xml" encoding="UTF-8">
+				<fileset targetdir="${HADOOP_HOME}/etc/hadoop" includes="hdfs-site.xml,core-site.xml,mapred-site.xml,yarn-site.xml"/>
+			</parsable>
+			<parsable type="shell" >
+				<fileset targetdir="${HADOOP_HOME}/etc/hadoop" includes="hadoop-env.sh"/>
+			</parsable>
+			<executable type="bin" stage="postinstall" targetfile="${INSTALL_PATH}/conf/config.sh" keep="true" failure="abort">
+				<os family="unix"/>
+				<args>
+					<arg value="hadoop"/>
+				</args>
+			</executable>
+		</pack>
+		<pack name="hbase"  required="true">
+			<description>install and setup hbase</description>
+			<depends packname="core" />
+			<depends packname="zookeeper" />
+			<fileset dir="packs/distro/services/@{hbase.file}" targetdir="${HBASE_HOME}" override="true"/>
+			<!-- configuration for hbase -->
+			<parsable type="xml" encoding="UTF-8">
+				<fileset targetdir="${HBASE_HOME}/conf" includes="hbase-site.xml"/>
+			</parsable>
+			<parsable type="shell" >
+				<fileset targetdir="${HBASE_HOME}/conf" includes="hbase-env.sh"/>
+			</parsable>
+			<executable type="bin" stage="postinstall" targetfile="${INSTALL_PATH}/conf/config.sh" keep="true" failure="abort">
+				<os family="unix"/>
+				<args>
+					<arg value="hbase"/>
+				</args>
+			</executable>
+		</pack>
+		<pack name="phoenix"  required="true">
+			<description>install and setup phoenix</description>
+			<depends packname="core" />
+			<depends packname="zookeeper" />
+			<depends packname="hbase" />
+			<fileset dir="packs/distro/services/@{phoenix.file}" targetdir="${PHOENIX_HOME}" override="true"/>
+			<!-- configuration for phoenix -->
+			<parsable type="shell" >
+				<fileset targetdir="${PHOENIX_HOME}/bin/config" includes="env.sh"/>
+			</parsable>
+			<parsable type="xml" encoding="UTF-8">
+				<fileset targetdir="${PHOENIX_HOME}/bin" includes="hbase-site.xml"/>
+			</parsable>
+			<executable type="bin" stage="postinstall" targetfile="${INSTALL_PATH}/conf/config.sh" keep="true" failure="abort" >
+				<os family="unix"/>
+				<args>
+					<arg value="phoenix"/>
+				</args>
+			</executable>
+		</pack>
+		<pack name="etl"  required="true">
+			<description>install and setup phoenix</description>
+			<depends packname="core" />
+			<depends packname="zookeeper" />
+			<depends packname="hbase" />
+			<depends packname="phoenix" />
+			<!-- because we don't have version on etl folder inside izpack installer -->
+			<fileset dir="packs/distro/services/etl" targetdir="${IGNIS_HOME}" override="true"/>
+			<!-- configuration for etl  -->
+			<parsable type="shell">
+				<fileset targetdir="${IGNIS_HOME}/conf" includes="etl-env.sh"/>
+			</parsable>
+			<parsable type="plain"  >
+				<fileset targetdir="${IGNIS_HOME}/conf" includes="application.yml" />
+				<fileset targetdir="${IGNIS_HOME}/conf/spark" includes="spark-defaults.conf" />
+			</parsable>
+			<parsable type="xml" encoding="UTF-8">
+				<fileset targetdir="${IGNIS_HOME}/conf/hadoop" includes="hdfs-site.xml,core-site.xml,yarn-site.xml"/>
+			</parsable>
+			<executable type="bin" stage="postinstall" targetfile="${INSTALL_PATH}/conf/config.sh" keep="true" failure="abort" >
+				<os family="unix"/>
+				<args>
+					<arg value="etl"/>
+				</args>
+			</executable>
+		</pack>
+	</packs>
+</izpack:installation>

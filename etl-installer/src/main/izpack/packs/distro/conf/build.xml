@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- (C) Lombard Risk Management plc 2011-2013                                                      -->
+<!--                                                                                                -->
+<!-- This file is proprietary and intellectual property of Lombard Risk Management plc.             -->
+<!-- It may not be modified, copied, duplicated, distributed, enhanced, reverse engineered,         -->
+<!-- reverse compiled or used, in whole or in part, with other applications or services whether     -->
+<!-- internally provided or provided by a 3rd party, for any purpose or application not defined     -->
+<!-- in your Lombard Risk master service contract or software license agreement or maintenance      -->
+<!-- agreement without the express written permission of a Director of Lombard Risk Management plc. -->
+<!-- Any unauthorised use may be in breach of your agreement with Lombard Risk Management plc       -->
+<!-- which may either invalidate your software licenses, or may incur additional charges.           -->
+<!-- Any such breach may lead to civil/criminal proceedings.                                        -->
+<project name="FCR Engine">
+	<property environment="env"/>
+	<property name="install.dir" value="@INSTALL_PATH@"/>
+	<property name="data.dir" value="@DATA_PATH@"/>
+	<property file="${install.dir}/conf/system.properties"/>
+	<!-- will be override by izpack -->
+	<property name="bin.dir" value="${install.dir}/bin"/>
+	<property name="log.dir" value="${install.dir}/log"/>
+	<property name="lib.dir" value="${install.dir}/lib"/>
+
+	<!-- Get OS family -->
+	<condition property="isWindows">
+		<os family="windows"/>
+	</condition>
+	<condition property="isUnix">
+		<os family="unix"/>
+	</condition>
+
+	<tempfile property="temp.dir" destDir="${java.io.tmpdir}" prefix="etl"/>
+
+	<target name="makeTemp">
+		<mkdir dir="${temp.dir}"/>
+	</target>
+
+	<target name="deleteTemp">
+		<delete dir="${temp.dir}"/>
+	</target>
+
+
+	<target name="clean" >
+		<delete includeemptydirs="true">
+			<fileset dir="${install.dir}">
+				<exclude name="${data.dir}/*"/>
+				<exclude name="conf/*"/>
+			</fileset>
+		</delete>
+	</target>
+
+
+</project>

@@ -1,0 +1,14 @@
+CATEGORYID,NAME,DESCRIPTION
+1,Asset source,Asset Source. Product/Sub-Product requirements. Report instructions
+2,Pledge level,Pledge Level. Product/Sub-Product requirements. Report instructions
+3,Secured outflow counterparty or coverage,Secured Outflow Counterparty Or Coverage. Product/Sub-Product requirements. Report instructions
+4,Segregation category,Segregation Category. Product/Sub-Product requirements. Report instructions
+5,Settlement mechanism,Settlement Mechanism. Product/Counterparty requirements. Report instructions
+6,Counterparty sector with retail and municipalities,Counterparty Sector. Product/Counterparty requirements. Report instructions
+7,Entity Type,Entity Type - matches type in StandardEntityType table
+8,Collateral class,Collateral Class. Product/Collateral class requirements. Report instructions
+9,Forward Start Product Exclusions,Forward Start Product Exclusions. Report instructions
+10,Internal transactions product category,Post submission validation (6). Symmetry of Intercompany Transactions.
+11,Large Other Products,Post submission validation (14). Large Other Product or Counterparty Balance.
+12,Large Other Counterparties,Post submission validation (14). Large Other Product or Counterparty Balance.
+13,Product required by entity type,Post submission validation (9). Missing Required Products by Entity Type
